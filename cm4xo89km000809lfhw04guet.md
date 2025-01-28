@@ -109,10 +109,10 @@ Here’s a snapshot of some commonly used prefixes and what they actually mean (
 <table border="1" cellpadding="10" cellspacing="0">
   <thead>
     <tr>
-      <th>Term</th>
-      <th>Meaning</th>
-      <th>Earliest Referenced Group</th>
-      <th>Short Description</th>
+      <td>Term</td>
+      <td>Meaning</td>
+      <td>Earliest Referenced Group</th>
+      <td>Short Description</td>
     </tr>
   </thead>
   <tbody>
