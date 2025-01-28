@@ -105,6 +105,7 @@ So next time you hear Latin in a church or Sanskrit at a temple, take a moment t
 
 Here’s a snapshot of some commonly used prefixes and what they actually mean ([because geeks love tables, right?](https://en.wikipedia.org/wiki/Prefix))..
 
+<div class="hn-table">
 <table border="1" cellpadding="10" cellspacing="0">
   <thead>
     <tr>
@@ -219,3 +220,4 @@ Here’s a snapshot of some commonly used prefixes and what they actually mean (
     </tr>
   </tbody>
 </table>
+</div>
