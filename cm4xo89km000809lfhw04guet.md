@@ -110,7 +110,7 @@ Here’s a snapshot of some commonly used prefixes and what they actually mean (
     <tr>
       <td><strong>Term</strong></td>
       <td><strong>Meaning</strong></td>
-      <td><strong>Earliest Referenced Group</strong></th>
+      <td><strong>Earliest Mention</strong></th>
       <td><strong>Short Description</strong></td>
     </tr>
   </thead>
