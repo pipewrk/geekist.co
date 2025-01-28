@@ -107,71 +107,20 @@ Here’s a snapshot of some commonly used prefixes and what they actually mean (
 
 | Term | Meaning | Earliest Referenced Group | Short Description |
 | --- | --- | --- | --- |
-| **Sino-**  
-*From: Latin (Sinae)* | Relating to China  
-*Earliest Use: 19th century* | Ancient Chinese Empires  
-*Type: Geopolitical* | Used in contexts like Sino-American relations. |
-| **Anglo-**  
-*From: Latin (Anglii)* | Relating to England or English  
-*Earliest Use: 16th century* | Anglo-Saxons (5th century)  
-*Type: Geopolitical* | Used to describe English-speaking nations or cultures. |
-| **Franco-**  
-*From: Latin (Franci)* | Relating to France or French  
-*Earliest Use: 17th century* | Frankish Empire (5th century)  
-*Type: Geopolitical* | Used in discussions about French relations (e.g., Franco-German). |
-| **Russo-**  
-*From: Latin (Rutheni)* | Relating to Russia  
-*Earliest Use: 18th century* | Tsardom of Russia  
-*Type: Geopolitical* | Used for relations involving Russia, e.g., Russo-Japanese War. |
-| **Germano-**  
-*From: Latin (Germani)* | Relating to Germany  
-*Earliest Use: 18th century* | Germanic tribes  
-*Type: Geopolitical* | Refers to Germanic or modern German contexts. |
-| **Italo-**  
-*From: Latin (Italia)* | Relating to Italy  
-*Earliest Use: 19th century* | Ancient Rome  
-*Type: Geopolitical* | Used for Italy’s relations, e.g., Italo-German relations. |
-| **Ibero-**  
-*From: Greek (Iberia)* | Relating to the Iberian Peninsula  
-*Earliest Use: 18th century* | Ancient Iberians  
-*Type: Geopolitical/Cultural* | Refers to Spain and Portugal or their shared history and influence. |
-| **Hispano-**  
-*From: Latin (Hispania)* | Relating to Spain or Spanish-speaking  
-*Earliest Use: 19th century* | Roman Hispania  
-*Type: Geopolitical/Cultural* | Covers Spanish-speaking cultural or historical contexts. |
-| **Indo-**  
-*From: Greek (Indos)* | Relating to India or Indian subcontinent  
-*Earliest Use: 18th century* | Ancient India  
-*Type: Linguistic/Cultural* | Used in Indo-European languages, Indo-Aryan peoples, etc. |
-| **Turko-**  
-*From: Latin (Turcus)* | Relating to Turkey or Turkic peoples  
-*Earliest Use: 18th century* | Ottoman Empire  
-*Type: Geopolitical/Cultural* | Used for cultural or geopolitical contexts involving Turkey. |
-| **Nippo-**  
-*From: Japanese (Nihon)* | Relating to Japan  
-*Earliest Use: 19th century* | Tokugawa Japan  
-*Type: Geopolitical* | Refers to Japanese relations, e.g., Nippo-Korean relations. |
-| **Afro-**  
-*From: Latin (Afri)* | Relating to Africa  
-*Earliest Use: 19th century* | Ancient Africa  
-*Type: Geopolitical/Cultural* | Covers African relations, culture, and history (e.g., Afro-Asian). |
-| **Pan-**  
-*From: Greek (pan, "all")* | Relating to broad groups  
-*Earliest Use: 19th century* | Various  
-*Type: Regional/Philosophical* | Used in unity movements, e.g., Pan-Africanism, Pan-Europeanism. |
-| **Arabo-**  
-*From: Latin (Arabus)* | Relating to Arab culture or peoples  
-*Earliest Use: 19th century* | Ancient Arabia  
-*Type: Geopolitical/Cultural* | Used for cultural exchanges, e.g., Arabo-Islamic civilisation. |
-| **Dravido-**  
-*From: Sanskrit (Dravida)* | Relating to Dravidian peoples  
-*Earliest Use: 19th century* | Ancient South India  
-*Type: Linguistic/Cultural* | Refers to Dravidian influences, often in historical or linguistic contexts. |
-| **Austro-**  
-*From: Latin (Auster)* | Relating to Austria or Australasia  
-*Earliest Use: 18th century* | Habsburg Austria  
-*Type: Geopolitical* | Refers to Austria (e.g., Austro-Hungarian Empire) or Australasia. |
-| **Helleno-**  
-*From: Greek (Hellas)* | Relating to Greek culture  
-*Earliest Use: 19th century* | Classical Greece  
-*Type: Cultural* | Refers to Hellenic traditions, often in the context of Hellenism. |
+| **Sino-**  *From: Latin (Sinae)* | Relating to China  *Earliest Use: 19th century* | Ancient Chinese Empires  *Type: Geopolitical* | Used in contexts like Sino-American relations. |
+| **Anglo-**  *From: Latin (Anglii)* | Relating to England or English  *Earliest Use: 16th century* | Anglo-Saxons (5th century)  *Type: Geopolitical* | Used to describe English-speaking nations or cultures. |
+| **Franco-**  *From: Latin (Franci)* | Relating to France or French  *Earliest Use: 17th century* | Frankish Empire (5th century)  *Type: Geopolitical* | Used in discussions about French relations (e.g., Franco-German). |
+| **Russo-**  *From: Latin (Rutheni)* | Relating to Russia  *Earliest Use: 18th century* | Tsardom of Russia  *Type: Geopolitical* | Used for relations involving Russia, e.g., Russo-Japanese War. |
+| **Germano-**  *From: Latin (Germani)* | Relating to Germany  *Earliest Use: 18th century* | Germanic tribes  *Type: Geopolitical* | Refers to Germanic or modern German contexts. |
+| **Italo-**  *From: Latin (Italia)* | Relating to Italy  *Earliest Use: 19th century* | Ancient Rome  *Type: Geopolitical* | Used for Italy’s relations, e.g., Italo-German relations. |
+| **Ibero-**  *From: Greek (Iberia)* | Relating to the Iberian Peninsula  *Earliest Use: 18th century* | Ancient Iberians  *Type: Geopolitical/Cultural* | Refers to Spain and Portugal or their shared history and influence. |
+| **Hispano-**  *From: Latin (Hispania)* | Relating to Spain or Spanish-speaking  *Earliest Use: 19th century* | Roman Hispania  *Type: Geopolitical/Cultural* | Covers Spanish-speaking cultural or historical contexts. |
+| **Indo-**  *From: Greek (Indos)* | Relating to India or Indian subcontinent  *Earliest Use: 18th century* | Ancient India  *Type: Linguistic/Cultural* | Used in Indo-European languages, Indo-Aryan peoples, etc. |
+| **Turko-**  *From: Latin (Turcus)* | Relating to Turkey or Turkic peoples  *Earliest Use: 18th century* | Ottoman Empire  *Type: Geopolitical/Cultural* | Used for cultural or geopolitical contexts involving Turkey. |
+| **Nippo-**  *From: Japanese (Nihon)* | Relating to Japan  *Earliest Use: 19th century* | Tokugawa Japan  *Type: Geopolitical* | Refers to Japanese relations, e.g., Nippo-Korean relations. |
+| **Afro-**  *From: Latin (Afri)* | Relating to Africa  *Earliest Use: 19th century* | Ancient Africa  *Type: Geopolitical/Cultural* | Covers African relations, culture, and history (e.g., Afro-Asian). |
+| **Pan-**  *From: Greek (pan, "all")* | Relating to broad groups  *Earliest Use: 19th century* | Various  *Type: Regional/Philosophical* | Used in unity movements, e.g., Pan-Africanism, Pan-Europeanism. |
+| **Arabo-**  *From: Latin (Arabus)* | Relating to Arab culture or peoples  *Earliest Use: 19th century* | Ancient Arabia  *Type: Geopolitical/Cultural* | Used for cultural exchanges, e.g., Arabo-Islamic civilisation. |
+| **Dravido-**  *From: Sanskrit (Dravida)* | Relating to Dravidian peoples  *Earliest Use: 19th century* | Ancient South India  *Type: Linguistic/Cultural* | Refers to Dravidian influences, often in historical or linguistic contexts. |
+| **Austro-**  *From: Latin (Auster)* | Relating to Austria or Australasia  *Earliest Use: 18th century* | Habsburg Austria  *Type: Geopolitical* | Refers to Austria (e.g., Austro-Hungarian Empire) or Australasia. |
+| **Helleno-**  *From: Greek (Hellas)* | Relating to Greek culture  *Earliest Use: 19th century* | Classical Greece  *Type: Cultural* | Refers to Hellenic traditions, often in the context of Hellenism. |
