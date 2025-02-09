@@ -19,7 +19,7 @@ Sure, visuals are everything in a video but nothing screams professionalism like
 
 ### The Psychology of Synchronization
 
-IIf you’ve ever watched a slideshow where slides seem to change at random, or a reel where the music *almost* syncs but is just a fraction off, you know the feeling, it’s like an itch you can’t scratch. This isn’t just an aesthetic issue. Studies on audiovisual synchrony show that well-timed transitions **increase engagement and perceived quality**.
+If you’ve ever watched a slideshow where slides seem to change at random, or a reel where the music *almost* syncs but is just a fraction off, you know the feeling, it’s like an itch you can’t scratch. This isn’t just an aesthetic issue. Studies on audiovisual synchrony show that well-timed transitions **increase engagement and perceived quality**.
 
 That’s because our brains naturally seek patterns, a concept explained by [Gestalt psychology's principles of grouping and continuity](https://www.verywellmind.com/gestalt-laws-of-perceptual-organization-2795835).
 
@@ -27,17 +27,17 @@ When you watch a presentation-style video that’s *out of sync*, you either:
 1️⃣ Power through because the content is *just* interesting enough to override the mild irritation...  
 2️⃣ Or - let’s be real - you nope out *immediately* because something *deeply* offends your brain’s sense of order.
 
-> f you’ve ever felt personally attacked by bad timing, congratulations! You’ve just experienced a **"geek breakdown"** - which totally means you’re exactly where you belong.  
->   
+> f you’ve ever felt personally attacked by bad timing, congratulations! You’ve just experienced a **"geek breakdown"** - which totally means you’re exactly where you belong.
+> 
 > Welcome to *this* blog. We get you.
 
 ### Case Study: My 1.5k views TikTok Experiment
 
-That’s exactly what we wanted to avoid in our own content experiments at Geekist. So, when my partner suggested a short-form video to illustrate [Latin prefixes](https://geekist.co/how-to-geek-out-over-latin-without-sounding-like-a-priest), we knew we had to get the rhythm right. She suggested that we found visuals relating to a small set of prefixes and that we create slides to define each prefix.  
-  
+That’s exactly what we wanted to avoid in our own content experiments at Geekist. So, when my partner suggested a short-form video to illustrate [Latin prefixes](https://geekist.co/how-to-geek-out-over-latin-without-sounding-like-a-priest), we knew we had to get the rhythm right. She suggested that we found visuals relating to a small set of prefixes and that we create slides to define each prefix.
+
 Brilliant! I thought. Here’s the result:
 
-<iframe src="https://codesandbox.io/embed/rl58ms?view=preview&amp;module=%2Fsrc%2Findex.html&amp;hidenavigation=1" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+<iframe src="https://codesandbox.io/embed/rl58ms?view=preview&module=%2Fsrc%2Findex.html&hidenavigation=1" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
 </iframe>
 
 #### What’s happening there?
@@ -53,11 +53,11 @@ Brilliant! I thought. Here’s the result:
 
 I decided on **8 slides + 1 outro** so the video wouldn’t feel too draggy. At first, I tried **3 seconds per slide** (a total of **27 seconds**), but it felt rushed. So I bumped it up to **4 seconds per slide**, making the video **36 seconds long**.
 
-But how in the world do you calculate the **BPM (beats per minute)** of the song to use?  
-  
+But how in the world do you calculate the **BPM (beats per minute)** of the song to use?
+
 Fret not, my fellow geeks, for here’s a nifty calculator just for you:
 
-<iframe src="https://codesandbox.io/embed/z7vg9j?view=preview&amp;module=%2Fsrc%2Findex.html&amp;hidenavigation=1" style="width:100%;height:650px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe src="https://codesandbox.io/embed/z7vg9j?view=preview&module=%2Fsrc%2Findex.html&hidenavigation=1" style="width:100%;height:650px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
 > For example, if you want a **40-second** video with **10 slides**, you’d need **4 seconds per slide**. That means a BPM of **120** (where every 4 seconds = 2 bars) would fit perfectly. Try adjusting the numbers in the calculator above to see what works for you.
 
