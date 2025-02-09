@@ -27,7 +27,7 @@ When you watch a presentation-style video that’s *out of sync*, you either:
 1️⃣ Power through because the content is *just* interesting enough to override the mild irritation...  
 2️⃣ Or - let’s be real - you nope out *immediately* because something *deeply* offends your brain’s sense of order.
 
-> f you’ve ever felt personally attacked by bad timing, congratulations! You’ve just experienced a **"geek breakdown"** - which totally means you’re exactly where you belong.
+> If you’ve ever felt personally attacked by bad timing, congratulations! You’ve just experienced a **"geek breakdown"** - which totally means you’re exactly where you belong.
 > 
 > Welcome to *this* blog. We get you.
 
