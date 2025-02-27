@@ -37,7 +37,7 @@ That’s exactly what we wanted to avoid in our own content experiments at Geeki
 
 Brilliant! I thought. Here’s the result:
 
-<iframe src="https://www.tiktok.com/player/v1/7455196169564622087?controls=0&amp;progress_bar=1&amp;play_button=1&amp;description=1&amp;rel=0&amp;music_info=1&amp;closed_caption=0" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+<iframe src="https://www.tiktok.com/player/v1/7455196169564622087?controls=0&progress_bar=1&play_button=1&description=1&rel=0&music_info=1&closed_caption=0" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
 </iframe>
 
 #### What’s happening there?
@@ -57,7 +57,7 @@ But how in the world do you calculate the **BPM (beats per minute)** of the song
 
 Fret not, my fellow geeks, for here’s a nifty calculator just for you:
 
-<iframe src="https://codesandbox.io/embed/z7vg9j?view=preview&module=%2Fsrc%2Findex.html&hidenavigation=1" style="width:100%;height:650px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe src="https://codesandbox.io/embed/z7vg9j?view=preview&amp;module=%2Fsrc%2Findex.html&amp;hidenavigation=1" style="width:100%;height:464px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
 > For example, if you want a **40-second** video with **10 slides**, you’d need **4 seconds per slide**. That means a BPM of **120** (where every 4 seconds = 2 bars) would fit perfectly. Try adjusting the numbers in the calculator above to see what works for you.
 
