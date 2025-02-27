@@ -37,7 +37,7 @@ That’s exactly what we wanted to avoid in our own content experiments at Geeki
 
 Brilliant! I thought. Here’s the result:
 
-<iframe src="https://codesandbox.io/embed/rl58ms?view=preview&module=%2Fsrc%2Findex.html&hidenavigation=1" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+<iframe src="https://www.tiktok.com/player/v1/7455196169564622087?controls=1&amp;progress_bar=1&amp;play_button=1" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
 </iframe>
 
 #### What’s happening there?
@@ -107,11 +107,11 @@ Additionally, here are some tools and platforms that can assist in finding trend
 
 | **Name** | **Description** |
 | --- | --- |
-| [vidIQ Viral](https://vidiq.com/blog/post/find-trending-tiktok-sounds/) | An app that curates trending sounds and music, allowing you to filter by track length and see which sounds are gaining popularity.|
+| [vidIQ Viral](https://vidiq.com/blog/post/find-trending-tiktok-sounds/) | An app that curates trending sounds and music, allowing you to filter by track length and see which sounds are gaining popularity. |
 | [TrendTok](https://musically.com/2021/04/01/tools-trendtok-1-app-for-tiktok-trends-sounds/) | An app that provides charts of songs and trends, including features like "Predicted to Rise" and "Trending Now," helping creators identify emerging trends |
 | [TokChart](https://tokchart.com/) | A website that tracks the most popular songs on TikTok, offering insights into trending and growing tracks. |
-| [Soundcharts](https://soundcharts.com/streaming-charts-monitoring) | A platform that monitors streaming charts across various services, helping you keep track of music trends globally.|
-| [Chartmetric](https://chartmetric.com/) | Provides data-driven analytics across platforms to help identify emerging music trends and promising artists.|
+| [Soundcharts](https://soundcharts.com/streaming-charts-monitoring) | A platform that monitors streaming charts across various services, helping you keep track of music trends globally. |
+| [Chartmetric](https://chartmetric.com/) | Provides data-driven analytics across platforms to help identify emerging music trends and promising artists. |
 
 *A small note about TikTok and Instagram*
 
