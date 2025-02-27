@@ -37,7 +37,7 @@ That’s exactly what we wanted to avoid in our own content experiments at Geeki
 
 Brilliant! I thought. Here’s the result:
 
-<iframe src="https://www.tiktok.com/player/v1/7455196169564622087?controls=1&amp;progress_bar=1&amp;play_button=1" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+<iframe src="https://www.tiktok.com/player/v1/7455196169564622087?controls=0&amp;progress_bar=1&amp;play_button=1&amp;description=1&amp;rel=0&amp;music_info=1&amp;closed_caption=0" style="width:100%;height:630px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
 </iframe>
 
 #### What’s happening there?
