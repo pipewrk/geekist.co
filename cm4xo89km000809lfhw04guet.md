@@ -5,7 +5,6 @@ datePublished: Sat Dec 21 2024 04:20:19 GMT+0000 (Coordinated Universal Time)
 cuid: cm4xo89km000809lfhw04guet
 slug: how-to-geek-out-over-latin-without-sounding-like-a-priest
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734754386982/2d93b4b6-94ed-4627-8099-ee5678aad4e1.webp
-tags: languages, history, linguistics, sanskrit, latin, roman-empire-history, etymology, classical-languages, language-revival, nerd-culture, word-origins
 
 ---
 
