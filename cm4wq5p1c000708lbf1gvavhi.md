@@ -1,6 +1,6 @@
 ---
 title: "Can't we just reset AWS!?"
-seoDescription: "How a Stratocaster, chaotic AWS migration, and calm leadership turned panic into progress. Empowerment, humour, and a reset button!"
+seoDescription: "How a Stratocaster, chaotic AWS migration and calm leadership turned panic into progress. Empowerment, humour, and a reset button!"
 datePublished: Fri Dec 20 2024 12:26:32 GMT+0000 (Coordinated Universal Time)
 cuid: cm4wq5p1c000708lbf1gvavhi
 slug: cant-we-just-reset-aws
