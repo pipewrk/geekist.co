@@ -1,6 +1,6 @@
 ---
 title: "The Tool that made CSS Magical..."
-seoDescription: "A look back at **Stylizer**, a visual CSS editor that once made live styling intuitive, before frameworks took over and it faded into obscurity."
+seoDescription: "A look back at Stylizer, a visual CSS editor that once made live styling intuitive, before frameworks took over and it faded into obscurity."
 datePublished: Tue Dec 24 2024 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm56v3yla000d0al19jllgr1e
 slug: the-tool-that-made-css-magical
