@@ -1,6 +1,6 @@
 ---
 title: "The Art of Proxying"
-seoDescription: "Unlock Nginx's full potential! Explore advanced reverse proxy use cases like WebSockets, gRPC, Layer 7 load balancing, and more."
+seoDescription: "A deep dive into advanced Nginx reverse proxy setups, covering WebSockets, gRPC, Layer 7 load balancing, and real-world traffic management strategies."
 datePublished: Mon Dec 23 2024 00:59:09 GMT+0000 (Coordinated Universal Time)
 cuid: cm50bx9iw000009mn3lnt8o0s
 slug: the-art-of-proxying
