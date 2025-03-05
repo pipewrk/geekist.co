@@ -1,6 +1,6 @@
 ---
 title: "How to Geek Out Over Latin Without Sounding Like a Priest"
-seoDescription: "Discover the ancient roots of prefixes like Sino- & Hispano-, why Latin became lifeless, & how nerds revive "dead" languages with humour!"
+seoDescription: "The ancient roots of prefixes like Sino- and Hispano-, why Latin lost its spark, and how nerds bring "dead" languages back to life"
 datePublished: Sat Dec 21 2024 04:20:19 GMT+0000 (Coordinated Universal Time)
 cuid: cm4xo89km000809lfhw04guet
 slug: how-to-geek-out-over-latin-without-sounding-like-a-priest
