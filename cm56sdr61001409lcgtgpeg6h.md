@@ -1,6 +1,6 @@
 ---
 title: "Wordpress MVC Plugin Reboot 2024"
-seoDescription: "Revamping a 2010 WordPress MVC Router for 2024: Discover how a lightweight, custom plugin router remains relevant today with middleware, auth, and more."
+seoDescription: "Revisiting a custom WordPress MVC router from 2010, with insights on how it still holds up in 2024 and where modern middleware fits in."
 datePublished: Wed Dec 25 2024 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm56sdr61001409lcgtgpeg6h
 slug: wordpress-mvc-plugin-reboot-2024
