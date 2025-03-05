@@ -17,19 +17,19 @@ This is the first in the [Taming Nginx](https://geekist.co/series/taming-nginx) 
 
 In this article, we’ll focus on **globally managed subdomains and SSL**.
 
-Let’s skip the repetitive setups and turn Nginx into the efficient powerhouse it’s meant to be, shall we?  
+Let’s skip the repetitive setups and turn Nginx into the efficient powerhouse it’s meant to be, shall we?
 
 ---
 
 In a typical nginx installation folder `/etc/nginx`, you'd find an `nginx.conf` file which specifies the `http` block.
 
-This is where all the magic of nginx happens.  
+This is where all the magic of nginx happens.
 
-*You'd also see an* `events` *block, but we'll talk about that in future posts*  
+*You'd also see an* `events` *block, but we'll talk about that in future posts*
 
 The `http` block is where global defaults are declared. Things like compression and which Nginx modules to load are defined here. As you’ll see, this file can get very verbose, very quickly.
 
-Fortunately, Nginx includes an `include` directive, which allows you to modularise configurations by including other files or folders.  
+Fortunately, Nginx includes an `include` directive, which allows you to modularise configurations by including other files or folders.
 
 In almost every default Nginx configuration, you’ll see something like this near the end of the `http` block:
 
@@ -47,22 +47,21 @@ http {
 }
 ```
 
-Most tutorials gloss over this, but if you’re a discerning sort, you might notice some very specific details:  
+Most tutorials gloss over this, but if you’re a discerning sort, you might notice some very specific details:
 
-1. `include /etc/nginx/conf.d/*.conf;`: Notice how it’s loading any and all files in the `conf.d` directory that end with a `.conf` extension?  
+1. `include /etc/nginx/conf.d/*.conf;`: Notice how it’s loading any and all files in the `conf.d` directory that end with a `.conf` extension?
     
-2. `include /etc/nginx/sites-enabled/*;`: Unlike `conf.d`, this one loads all files in `sites-enabled`, regardless of their extension.  
+2. `include /etc/nginx/sites-enabled/*;`: Unlike `conf.d`, this one loads all files in `sites-enabled`, regardless of their extension.
     
 
-But why? And why in that order?  
+But why? And why in that order?
 
-Besides offering obvious flexibility in naming your domains, subdomains, or other server blocks, this order ensures that files in `conf.d` are loaded **first**.  
+Besides offering obvious flexibility in naming your domains, subdomains, or other server blocks, this order ensures that files in `conf.d` are loaded **first**.
 
-This is intentional, and it’s a good thing.  
+This is intentional, and it’s a good thing.
 
 Typically, `conf.d` is used to specify global or module-specific defaults, but it also opens up some creative possibilities - which I’ll illustrate below.
 
-###   
 The default HTTP config
 
 Now that we understand how `conf.d` is loaded first, let’s explore how it ties in to the **default HTTP configuration**.
@@ -233,24 +232,24 @@ resolver_timeout 5s;
 
 ### All the steps in a nutshell
 
-1. Create a new `default` file in `sites-available` after backing up the old one and then symlink it to `sites-enabled`  
+1. Create a new `default` file in `sites-available` after backing up the old one and then symlink it to `sites-enabled`
     
-2. Route all HTTP traffic to HTTPS using a single directive as described above in your new `default` file  
+2. Route all HTTP traffic to HTTPS using a single directive as described above in your new `default` file
     
-3. Create a global configuration file in `/etc/nginx/ssl_params` just like the one above and point to the location of your certificates  
+3. Create a global configuration file in `/etc/nginx/ssl_params` just like the one above and point to the location of your certificates
     
-4. Create individual [`subdomain.mydomain.com`](http://subdomain.mydomain.com) config files in `sites-available` for every sub-domain you need, ensuring that you symlink each one back to `sites-enabled`  
+4. Create individual [`subdomain.mydomain.com`](http://subdomain.mydomain.com) config files in `sites-available` for every sub-domain you need, ensuring that you symlink each one back to `sites-enabled`
     
-5. Run `sudo nginx -t` to test everything  
+5. Run `sudo nginx -t` to test everything
     
-6. Run `sudo service nginx reload (or restart)` followed by `sudo service nginx status` to ensure everything is running  
+6. Run `sudo service nginx reload (or restart)` followed by `sudo service nginx status` to ensure everything is running
     
-7. Finally, test your newly configured subdomain with `curl -L` [`subdomain.mydomain.com`](http://subdomain.mydomain.com) to make sure everything works! You can also verify headers with `curl -I`.  
+7. Finally, test your newly configured subdomain with `curl -L` [`subdomain.mydomain.com`](http://subdomain.mydomain.com) to make sure everything works! You can also verify headers with `curl -I`.
     
 
 In addition to `curl`, you can test your SSL configuration using online tools like [SSL Labs](https://www.ssllabs.com/ssltest/) to ensure your settings are secure and correctly configured.
 
-And that’s it! With this setup, you now have a flexible, scalable Nginx configuration that makes adding or removing subdomains a breeze. You no longer need to worry about HTTP traffic or SSL parameters—they’re managed centrally and follow best practices by default.  
+And that’s it! With this setup, you now have a flexible, scalable Nginx configuration that makes adding or removing subdomains a breeze. You no longer need to worry about HTTP traffic or SSL parameters—they’re managed centrally and follow best practices by default.
 
 ---
 
@@ -260,9 +259,7 @@ This is just the beginning of the [Taming Nginx](https://geekist.co/series/tamin
     
 * [Wildcard Certificates, Certbot & Cloudflare and Mutual SSL with Nginx](https://geekist.co/wildcard-ssl-and-beyond).
     
-* Advanced Nginx topics like **reverse proxying**, **caching**, and **rate limiting**.
-    
-* Tips for **load balancing** and **DDoS protection** to keep your sites running smoothly.
+* [Advanced Nginx topics like **reverse proxying**, **caching**, and **rate limiting**](https://geekist.co/the-art-of-proxying).
     
 
 Stay tuned as we continue taming Nginx in upcoming articles!
