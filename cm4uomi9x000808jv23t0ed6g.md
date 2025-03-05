@@ -1,6 +1,6 @@
 ---
 title: "Building the Foundation"
-seoDescription: "Discover best practices for organizing web server folders, from /srv structures to centralizing logs and configs. Boost scalability & security!"
+seoDescription: "A practical look at organizing web server folders, from `/srv` structures to centralizing logs and configs—designed for scalability and security."
 datePublished: Thu Dec 19 2024 02:08:05 GMT+0000 (Coordinated Universal Time)
 cuid: cm4uomi9x000808jv23t0ed6g
 slug: building-the-foundation
