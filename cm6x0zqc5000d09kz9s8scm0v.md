@@ -1,6 +1,6 @@
 ---
 title: "Sync Your Music and Visuals Together to Captivate Your Audience"
-seoDescription: "Sync your visuals & music like a pro! Discover the psychology behind perfect timing and a simple BPM calculator to help you create seamless, engaging vids"
+seoDescription: "A breakdown of how precise timing between music and visuals enhances engagement, with a simple BPM calculator to keep everything in sync."
 datePublished: Sun Feb 09 2025 02:49:15 GMT+0000 (Coordinated Universal Time)
 cuid: cm6x0zqc5000d09kz9s8scm0v
 slug: sync-your-music-and-visuals-together-to-captivate-your-audience
