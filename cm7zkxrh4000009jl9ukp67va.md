@@ -20,13 +20,15 @@ Real success hinged on fundamentals like [choosing an architecture](https://www.
 
 Turns out, frameworks come and go, but good architecture? That sticks around.
 
-### What Actually Matters for Future-Proof Software
+**What Actually Matters for Future-Proof Software**
 
 If I could distill the years between 2017 and today into a single insight, it’d be this:
 
 > Frameworks fade; the way you structure your software endures.
 
-**AI and Automation Changed Everything**
+### **AI and Automation Changed Everything**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741407913059/f67a9ecd-8ff9-4fb7-8a7d-dfd7763f5aa5.png align="center")
 
 Back then, we thought having [JavaScript run everywhere was groundbreaking](https://naturaily.com/blog/react-native-things-to-know). Today, AI and automation have transformed the landscape completely. Debugging, for example, used to mean long nights hunting obscure errors. Now, AI-assisted tools help pinpoint common issues in minutes, making troubleshooting more efficient - but its far from perfect.
 
