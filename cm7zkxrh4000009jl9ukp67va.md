@@ -1,8 +1,7 @@
 ---
 title: "Your Tech Stack Doesn’t Matter (As Much As You Think)"
 seoTitle: "Tech Stack Importance: Myths vs. Reality"
-seoDescription: "The real challenge in 2025 isn’t React Native vs. Native, it’s building software that lasts. Here’s what truly matters for future-proof development.
-"
+seoDescription: "The real challenge in 2025 isn’t React Native vs. Native, it’s building software that lasts. Here’s what truly matters for future-proof development."
 datePublished: Sat Mar 08 2025 02:22:50 GMT+0000 (Coordinated Universal Time)
 cuid: cm7zkxrh4000009jl9ukp67va
 slug: your-tech-stack-doesnt-matter-as-much-as-you-think
@@ -29,7 +28,7 @@ If I could distill the years between 2017 and today into a single insight, it’
 
 **AI and Automation Changed Everything**
 
-Back then, we thought having [JavaScript run everywhere was groundbreaking](https://naturaily.com/blog/react-native-things-to-know). Today, AI and automation have transformed the landscape completely. Debugging, for example, used to mean long nights hunting obscure errors. Now, AI-assisted debugging helps pinpoint issues in minutes, turning coding nightmares into minor hiccups.
+Back then, we thought having [JavaScript run everywhere was groundbreaking](https://naturaily.com/blog/react-native-things-to-know). Today, AI and automation have transformed the landscape completely. Debugging, for example, used to mean long nights hunting obscure errors. Now, AI-assisted tools help pinpoint common issues in minutes, making troubleshooting more efficient - but its far from perfect.
 
 Automated CI/CD pipelines have made updates effortless across every platform, no longer making deployment feel like a stressful space launch. Even components and tests can now be generated with AI, freeing developers from tedious, repetitive tasks to focus on higher-level design.
 
@@ -68,10 +67,10 @@ Just as 2017 had its React Native drama, today's hot debate is "microservices or
 
 Sure, a monolith might get your MVP out the door faster, but as complexity grows, it starts to feel like lugging around an increasingly heavy backpack. Microservices offer flexibility and modularity, but demand strict discipline to keep complexity in check.
 
-*The trick is to build a monolith with the future in mind. Code structured around isolated business units or features stands the test of time.*  
-  
-(Crap! That rhymed!)  
-  
+*The trick is to build a monolith with the future in mind. Code structured around isolated business units or features stands the test of time.*
+
+(Crap! That rhymed!)
+
 Practically speaking, your code should communicate through clearly defined interfaces - a common protocol if you will. This could be REST, GraphQL, or an event-driven architecture, depending heavily on your infrastructure, team expertise and available resources
 
 If each feature-driven section of your codebase can live and operate independently within your stack, transitioning from a monolithic structure to a standalone microservice becomes a surprisingly smooth process.
