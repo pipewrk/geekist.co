@@ -28,8 +28,6 @@ If I could distill the years between 2017 and today into a single insight, it’
 
 ### **AI and Automation Changed Everything**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741407913059/f67a9ecd-8ff9-4fb7-8a7d-dfd7763f5aa5.png align="center")
-
 Back then, we thought having [JavaScript run everywhere was groundbreaking](https://naturaily.com/blog/react-native-things-to-know). Today, AI and automation have transformed the landscape completely. Debugging, for example, used to mean long nights hunting obscure errors. Now, AI-assisted tools help pinpoint common issues in minutes, making troubleshooting more efficient - but its far from perfect.
 
 Automated CI/CD pipelines have made updates effortless across every platform, no longer making deployment feel like a stressful space launch. Even components and tests can now be generated with AI, freeing developers from tedious, repetitive tasks to focus on higher-level design.
@@ -47,6 +45,8 @@ Modern threats, like AI-powered cyberattacks and vulnerabilities hidden deep in 
 Back then, [AWS Lambda and serverless computing felt revolutionary](https://siliconangle.com/2017/08/15/a-cloud-guru-uses-lambda-and-api-gateway-to-build-serverless-company-awssummit/). Today we have coding platforms that generate entire apps for you (It can, but the stuff it generates is quite rudimentary). I have never once thought (nor will I believe) that coding can be completely replaced by AI - yet!
 
 The reason I say this is because I have spent much more time debugging AI-generated code than I would my own. To start with, I wouldn’t have written many things the way it would, having learnt so much over the years, I structure things wildly different from the common scenarios that LLMs are trained with. But while AI-generated code still has a long way to go, its real value emerges elsewhere…
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741407913059/f67a9ecd-8ff9-4fb7-8a7d-dfd7763f5aa5.png align="center")
 
 Today, we have low-code and no-code tools that can generate prototypes in hours instead of weeks. And it is things like this that make AI shine. The heavy lifting, the project starters, the strategic overview. After that it becomes a companion at best. This converts developers into strategic architects, crafting scalable systems rather than wrestling with mundane details. If anything, these tools elevated our roles by freeing us from the busy work.
 
