@@ -70,16 +70,20 @@ const preRender = (req, res, app) =>
 // dehydrating in a way that is apollo friendly. 
 // Queries & mutations need to be removed
 const dehydrateHook = () => ({
-  apollo: { data: client.store.getState().apollo.data }
+  apollo: { 
+    data: client.store.getState().apollo.data 
+  }
 });
 
 const htmlHook = html => {
   const h = ReactHelmet.rewind();
-  return html.replace('', '' + h.title + h.base + h.meta + h.link + h.script);
-}
+  return html.replace(
+    '', '' + h.title + h.base + h.meta + h.link + h.script
+  );
+};
 
-// the weirdest thing - wrapperHook in clientOptions - inferring it only runs 
-// on the client
+// the weirdest thing - wrapperHook in clientOptions - 
+// inferring it only runs on the client
 const clientOptions = { wrapperHook, rehydrateHook };
 const serverOptions = { htmlHook, preRender, dehydrateHook };
 
