@@ -28,9 +28,9 @@ Here's how my isomorphic `index.jsx` looks after that:
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 /*
-* Had to hack server.jsx in meteor-react-router-ssr to move the `preRender` 
-* hook so it runs after `wrapperHook` and I had to give it {app} as an extra 
-* argument.
+* Had to hack server.jsx in meteor-react-router-ssr to move the  
+* `preRender` hook so it runs after `wrapperHook` and I had to 
+* give it {app} as an extra  argument.
 */
 import { ReactRouterSSR } from 'meteor/jasonnathan:react-router-ssr';
 import ReactHelmet from 'react-helmet';
