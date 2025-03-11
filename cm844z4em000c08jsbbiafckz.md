@@ -25,12 +25,12 @@ After piecing in bits and bytes from all over the place,  I am writing this in 
 Here's how my isomorphic `index.jsx` looks after that:
 
 ```javascript
-
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 /*
-* Had to hack server.jsx in meteor-react-router-ssr to move the `preRender` hook so it runs after
-* `wrapperHook` and I had to give it {app} as an extra argument.
+* Had to hack server.jsx in meteor-react-router-ssr to move the `preRender` 
+* hook so it runs after `wrapperHook` and I had to give it {app} as an extra 
+* argument.
 */
 import { ReactRouterSSR } from 'meteor/jasonnathan:react-router-ssr';
 import ReactHelmet from 'react-helmet';
@@ -51,7 +51,8 @@ if (Meteor.isClient && process.env.NODE_ENV === 'production') {
 
 // setup apollo's networkInterface
 opts.networkInterface = createNetworkInterface({
-  credentials: 'same-origin', uri: `http://${url}:3000/graphql`
+  credentials: 'same-origin', 
+  uri: `http://${url}:3000/graphql`
 });
 
 const rehydrateHook = state => initialState = state;
@@ -59,21 +60,26 @@ const rehydrateHook = state => initialState = state;
 const wrapperHook = app => {
   opts.initialState = initialState;
   client = new ApolloClient(opts);
-  return { app }
+  return { app };
 };
 
 // the preRender is simpler. All it needed was the `app` argument
-const preRender = (req, res, app) => Promise.await(getDataFromTree(app));
+const preRender = (req, res, app) => 
+  Promise.await(getDataFromTree(app));
 
-// dehydrating in a way that is apollo friendly. Queries & mutations need to be removed
-const dehydrateHook = () => ({ apollo: { data: client.store.getState().apollo.data } })
+// dehydrating in a way that is apollo friendly. 
+// Queries & mutations need to be removed
+const dehydrateHook = () => ({
+  apollo: { data: client.store.getState().apollo.data }
+});
 
 const htmlHook = html => {
   const h = ReactHelmet.rewind();
   return html.replace('', '' + h.title + h.base + h.meta + h.link + h.script);
 }
 
-// the weirdest thing - wrapperHook in clientOptions - inferring it only runs on the client
+// the weirdest thing - wrapperHook in clientOptions - inferring it only runs 
+// on the client
 const clientOptions = { wrapperHook, rehydrateHook };
 const serverOptions = { htmlHook, preRender, dehydrateHook };
 
