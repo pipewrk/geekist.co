@@ -12,7 +12,7 @@ tags: microservices, software-architecture, automation, scalability, techstack, 
 
 ### The Debate That Didn’t Matter
 
-Back in 2017, everyone - including yours truly - was passionately caught up debating the virtues of R[eact Native versus going fully Native](https://www.inovex.de/de/blog/react-native-vs-native-development/). I even penned a fiery rant about it [here](https://geekist.co/hybrid-vs-native), convinced I'd cracked the code myself on app development.
+In 2017, everyone - including yours truly - was passionately caught up debating the virtues of R[eact Native versus going fully Native](https://www.inovex.de/de/blog/react-native-vs-native-development/). I even penned a fiery rant about it [here](https://geekist.co/hybrid-vs-native), convinced I'd cracked the code myself on app development.
 
 But looking back now, it feels like we were totally arguing about who had the cooler shoes in primary school which as fun as it was at the time, was ultimately meaningless. The truth is, it wasn't frameworks or flashy tech that determined success; it was something *far more mundane*.
 
@@ -28,7 +28,7 @@ If I could distill the years between 2017 and today into a single insight, it’
 
 ### **AI and Automation Changed Everything**
 
-Back then, we thought having [JavaScript run everywhere was groundbreaking](https://naturaily.com/blog/react-native-things-to-know). Today, AI and automation have transformed the landscape completely. Debugging, for example, used to mean long nights hunting obscure errors. Now, AI-assisted tools help pinpoint common issues in minutes, making troubleshooting more efficient - but its far from perfect.
+At the time, having [JavaScript run everywhere was groundbreaking](https://naturaily.com/blog/react-native-things-to-know). Today, AI and automation have transformed the landscape completely. Debugging, for example, used to mean long nights hunting obscure errors. Now, AI-assisted tools help pinpoint common issues in minutes, making troubleshooting more efficient - but its far from perfect.
 
 Automated CI/CD pipelines have made updates effortless across every platform, no longer making deployment feel like a stressful space launch. Even components and tests can now be generated with AI, freeing developers from tedious, repetitive tasks to focus on higher-level design.
 
@@ -42,7 +42,7 @@ Modern threats, like AI-powered cyberattacks and vulnerabilities hidden deep in 
 
 ### AI in Coding went from Novelty to Necessity (Almost)
 
-Back then, [AWS Lambda and serverless computing felt revolutionary](https://siliconangle.com/2017/08/15/a-cloud-guru-uses-lambda-and-api-gateway-to-build-serverless-company-awssummit/). Today we have coding platforms that generate entire apps for you (It can, but the stuff it generates is quite rudimentary). I have never once thought (nor will I believe) that coding can be completely replaced by AI - yet!
+[AWS Lambda](https://siliconangle.com/2017/08/15/a-cloud-guru-uses-lambda-and-api-gateway-to-build-serverless-company-awssummit/) and serverless computing? Pure Revolution. Today we have coding platforms that generate entire apps for you (It can, but the stuff it generates is quite rudimentary). I have never once thought (nor will I believe) that coding can be completely replaced by AI - yet!
 
 The reason I say this is because I have spent much more time debugging AI-generated code than I would my own. To start with, I wouldn’t have written many things the way it would, having learnt so much over the years, I structure things wildly different from the common scenarios that LLMs are trained with. But while AI-generated code still has a long way to go, its real value emerges elsewhere…
 
