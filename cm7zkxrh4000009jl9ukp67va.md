@@ -12,7 +12,7 @@ tags: microservices, software-architecture, automation, scalability, techstack, 
 
 ### The Debate That Didn’t Matter
 
-In 2017, everyone - including yours truly - was passionately caught up debating the virtues of R[eact Native versus going fully Native](https://www.inovex.de/de/blog/react-native-vs-native-development/). I even penned a fiery rant about it [here](https://geekist.co/hybrid-vs-native), convinced I'd cracked the code myself on app development.
+In 2017, everyone - including yours truly - was passionately caught up debating the virtues of [React Native versus going fully Native](https://www.inovex.de/de/blog/react-native-vs-native-development/). I even penned a fiery rant about it [here](https://geekist.co/hybrid-vs-native), convinced I'd cracked the code myself on app development.
 
 But looking back now, it feels like we were totally arguing about who had the cooler shoes in primary school which as fun as it was at the time, was ultimately meaningless. The truth is, it wasn't frameworks or flashy tech that determined success; it was something *far more mundane*.
 
