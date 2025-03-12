@@ -4,7 +4,7 @@ seoDescription: "Build a simple CRM WordPress plugin with a custom router for be
 datePublished: Wed Sep 29 2010 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm54j24g7000609jwbgnf8hzd
 slug: wordpress-mvc-plugin-development
-canonical: https://jasonnathan.wordpress.com/2010/09/29/wordpress-mvc-plugin-development/
+canonical: https://geekistco.wordpress.com/2010/09/29/wordpress-mvc-plugin-development/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735170486467/8c86ea90-ad86-4600-a9b6-d9b38a33b8ed.png
 tags: wordpress-plugins, mvc, wordpress, php, digging-into-the-archives
 
