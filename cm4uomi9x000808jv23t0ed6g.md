@@ -1,5 +1,5 @@
 ---
-title: "Building the Foundation"
+title: "Why Your Web Server Structure is Holding You Back (And How to Fix It)"
 seoDescription: "A practical look at organizing web server folders, from `/srv` structures to centralizing logs and configs designed for scalability and security."
 datePublished: Thu Dec 19 2024 02:08:05 GMT+0000 (Coordinated Universal Time)
 cuid: cm4uomi9x000808jv23t0ed6g
