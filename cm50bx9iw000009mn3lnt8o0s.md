@@ -1,5 +1,5 @@
 ---
-title: "The Art of Proxying"
+title: "The Art of Proxying: Mastering Traffic Management Like a Pro"
 seoDescription: "A deep dive into advanced Nginx reverse proxy setups, covering WebSockets, gRPC, Layer 7 load balancing, and real-world traffic management strategies."
 datePublished: Mon Dec 23 2024 00:59:09 GMT+0000 (Coordinated Universal Time)
 cuid: cm50bx9iw000009mn3lnt8o0s
