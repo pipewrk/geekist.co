@@ -4,7 +4,7 @@ seoDescription: "Learn how to set up SSR with Apollo and Meteor-React-Router-SSR
 datePublished: Fri Nov 18 2016 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm844z4em000c08jsbbiafckz
 slug: how-to-ssr-with-apollostack-and-meteor-react-router-ssr
-canonical: https://jasonnathan.wordpress.com/2016/11/18/how-to-ssr-with-apollostack-and-meteor-react-router-ssr/
+canonical: https://geekistco.wordpress.com/2016/11/18/how-to-ssr-with-apollostack-and-meteor-react-router-ssr/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741675391608/a552d87e-1cc0-4972-a004-9da84651aaf8.webp
 tags: react-router, javascript, web-development, meteor, full-stack, graphql, apollo, ssr
 
