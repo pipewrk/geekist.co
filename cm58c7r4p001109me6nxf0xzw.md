@@ -1,10 +1,10 @@
 ---
 title: "Building a Zoomable User Interface with Meteor.js & Greensock"
 seoDescription: "An exploration of Zoomable User Interfaces (ZUIs) with Meteor.js and Greensock & a unique responsive UI design technique"
-datePublished: Fri Jan 16 2015 05:06:37 GMT+0000 (Coordinated Universal Time)
+datePublished: Sun Jan 04 2015 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm58c7r4p001109me6nxf0xzw
 slug: building-a-zoomable-user-interface-with-meteorjs-greensock
-canonical: https://jasonnathan.wordpress.com/2015/01/04/building-a-zoomable-user-interface-with-meteorjs-gsap/
+canonical: https://geekistco.wordpress.com/2015/01/04/building-a-zoomable-user-interface-with-meteorjs-gsap/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735399854191/4dce2e91-12dc-4f29-b346-93321214c8b3.png
 tags: flexbox, web-design, meteor, animation, greensock, frontend-development, digging-into-the-archives, zui, zoomable-user-interface
 
