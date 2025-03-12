@@ -1,5 +1,5 @@
 ---
-title: "Building a zoomable user interface with Meteor.js & Greensock"
+title: "Building a Zoomable User Interface with Meteor.js & Greensock"
 seoDescription: "An exploration of Zoomable User Interfaces (ZUIs) with Meteor.js and Greensock & a unique responsive UI design technique"
 datePublished: Fri Jan 16 2015 05:06:37 GMT+0000 (Coordinated Universal Time)
 cuid: cm58c7r4p001109me6nxf0xzw
