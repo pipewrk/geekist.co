@@ -4,7 +4,7 @@ seoDescription: "Remote work sounds great, but do employers really mean it? This
 datePublished: Sun Dec 04 2016 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm84cikep000309lcghpp0io3
 slug: remote-work-available-many-claim-it-but-few-mean-what-we-really-think
-canonical: https://jasonnathan.wordpress.com/2016/12/04/remote-work-available-many-claim-it-but-few-mean-what-we-really-think/
+canonical: https://geekistco.wordpress.com/2016/12/04/remote-work-available-many-claim-it-but-few-mean-what-we-really-think/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741688070451/a652bd82-13bc-49cc-9bf3-43dd25aa9d9e.jpeg
 tags: productivity, business, freelancing, leadership, remote-work
 
