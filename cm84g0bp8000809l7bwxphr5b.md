@@ -4,7 +4,7 @@ seoDescription: "Affordable web hosting in Singapore: AWS Free Tier, DigitalOcea
 datePublished: Sun Dec 04 2016 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm84g0bp8000809l7bwxphr5b
 slug: cheaper-free-web-hosting-in-singapore
-canonical: https://jasonnathan.wordpress.com/2016/12/04/cheaper-free-web-hosting-in-singapore/
+canonical: https://geekistco.wordpress.com/2016/12/04/cheaper-free-web-hosting-in-singapore/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741694579530/ef5aaf6e-f0bf-4ba4-a840-939365a309bb.png
 tags: website, blogging, digital-marketing
 
