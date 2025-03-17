@@ -1,17 +1,17 @@
 ---
-title: "We Broke the Web. Can Web0+ Fix It?"
-seoDescription: "The web has come full circle. After 25 years of over-engineering, Web0+ revives the best of Web1, Web2, and Web3—minus the complexity."
+title: "We Broke the Web. Can WebO+ Fix It?"
+seoDescription: "The web has come full circle. After 25 years of over-engineering, WebO+ revives the best of Web1, Web2, and Web3 - minus the complexity."
 datePublished: Mon Mar 17 2025 12:25:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm8d1fb2u000409jx1g2mcyvf
-slug: we-broke-the-web-can-web0-fix-it
+slug: we-broke-the-web-can-webo-fix-it
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742214068976/c9409ae1-1d47-41ca-9ed7-009e3326cb3f.png
-tags: laravel, javascript, performance, web-development, nodejs, backend, seo, frontend-development, ssr, web3, deno, decentralization, web-20, web-history, web0
+tags: laravel, javascript, performance, web-development, nodejs, backend, seo, frontend-development, ssr, web3, deno, decentralization, web-20, web-history, webo
 
 ---
 
 Let's be honest. The Web has gone through so many self-imposed revolutions, it looks a lot more like a badly managed startup. Pivoting. Perpetually. Forever rewriting its mission statement. But as a side-effect, it tends to generate buzzwords. A ton of them. So here's another one:
 
-***Web0+***
+***WebO+***
 
 But let’s start at the beginning. We had Web1.0 - which wasn’t a term that was ever actually coined - but was known as the *read-only web*. Then Web2.0 came with all its interactivity and API-driven web apps. And finally, we met Web3. What’s next?
 
@@ -103,7 +103,7 @@ At this point, we had truly outdone ourselves. In pushing the boundaries of tech
 
 But. Finally. After years of over-complication, we hit The Great Reset.
 
-## Web0+. The ultimate Rollback-olution™ (2020s – Now)
+## WebO+. The ultimate Rollback-olution™ (2020s – Now)
 
 It’s absurd how we’ve come full circle. We began with server-side rendering because that’s all we had. Then JavaScript evolved, and we pushed more work onto the client. Then came Internet Explorer, which we shall not speak of. Eventually, we decided that sending full HTML pages was too expensive - so we switched to sending JSON. Then, JSON was too big, so we optimized it with better compression. Then, in our pursuit of the ‘pristine’ server, we decided it should only speak one language - JSON (or protobuf) - while the client handled the heavy lifting.
 
@@ -111,9 +111,9 @@ Then reality struck. We still needed server-side rendering for SEO, accessibilit
 
 The simple truth hit us: The **original web had it right all along**. We didn’t need a new paradigm. We needed to stop over-engineering everything.
 
-Web0+ isn’t about going backwards - it’s about correcting 25 years of misdirection. It takes the best parts of Web1, Web2, and Web3 and cuts out the nonsense.
+WebO+ isn’t about going backwards - it’s about correcting 25 years of misdirection. It takes the best parts of Web1, Web2, and Web3 and cuts out the nonsense.
 
-| Feature | Web1 | Web2 | Web3 | Web0+ |
+| Feature | Web1 | Web2 | Web3 | WebO+ |
 | --- | --- | --- | --- | --- |
 | Server-side HTML | Yes | Partial | No | Yes |
 | UI Rendering APIs | No | Yes | Yes | Optional |
@@ -121,7 +121,7 @@ Web0+ isn’t about going backwards - it’s about correcting 25 years of misdir
 | Perf (Page Load) | Yes | Partial | Heavy | Yes |
 | Client JS | No | Yes | Yes (dApps) | Optional |
 
-> Web0+ is what Web1 would have been, if we had today’s hardware, compression, and smarter rendering.
+> WebO+ is what Web1 would have been, if we had today’s hardware, compression, and smarter rendering.
 
 ### What it does right.
 
@@ -145,33 +145,38 @@ Even React now embraces SSR with Next.js and React Server Components (RSC), thou
 
 You see, I saw a video called *“Best Practices for Next.js Apps”* and the first thing the guy said was, “Dude, are you using Page Router? Stop. Use App Router.” I asked ChatGPT, and you know what it basically? *“Oh, App Router is like how we built websites in the late 90s and early 2000s.”*
 
-At that moment, something inside me broke.  
-  
+At that moment, something inside me broke.
+
 At that point, I forced my partner to sit down and listen to me rant. I went on and on and finally ended with telling her what I would say to FrontEnd Devs at the time:
 
 > *It doesn’t matter if server-side is gold if your client-side code looks like Medusa just woke up from a freaking hangover.*
 
-Finally got her to laugh at something, so I guess that is a win. And the ranting made me feel better but before I go, there's some things that need to be said. 
-  
+Finally got her to laugh at something, so I guess that is a win. And the ranting made me feel better but before I go, there's some things that need to be said.
+
 Frontend Development pushed browsers so damn far that they became full-fledged operating systems. \_Chromebook anyone?\_
 
-It pushed GPUs to their limits. It pushed JS engines to the point where V8 became so powerful that it didn’t just optimise web performance - it gave birth to entire server-side ecosystems like Node.js & Deno  
-  
+It pushed GPUs to their limits. It pushed JS engines to the point where V8 became so powerful that it didn’t just optimise web performance - it gave birth to entire server-side ecosystems like Node.js & Deno
+
 Meanwhile, server-side computing kept getting stronger. But most of those BFFs? Just sitting there, idling. So the push came from the frontend: “Wake up, server. We need you to do more.”
 
-And now? We’re finally waking up to the fact that frontend wasn’t supposed to be doing all the heavy lifting.  
-  
+And now? We’re finally waking up to the fact that frontend wasn’t supposed to be doing all the heavy lifting.
+
 And finally, we are shifting back, so I’d say…
 
 * Goodbye hydration hell.
+    
 * Goodbye unnecessary client-side API calls.
+    
 * Goodbye shipping 5MB of JavaScript just to render a list.
+    
 
 And then I’'ll say…
 
 * Welcome back, server-rendered HTML.
+    
 * Welcome back, pre-rendered content.
+    
 * Welcome back universal UIs
     
 
-### 🔥 Welcome to Web0+.
+### 🔥 Welcome to WebO+.
