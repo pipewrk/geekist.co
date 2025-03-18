@@ -4,7 +4,7 @@ seoDescription: "The web has come full circle. After 25 years of over-engineerin
 datePublished: Mon Mar 17 2025 12:25:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm8d1fb2u000409jx1g2mcyvf
 slug: we-broke-the-web-can-webo-fix-it
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742214068976/c9409ae1-1d47-41ca-9ed7-009e3326cb3f.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742260959139/27218680-172a-4f0e-a787-ea1ef3c419f7.png
 tags: laravel, javascript, performance, web-development, nodejs, backend, seo, frontend-development, ssr, web3, deno, decentralization, web-20, web-history, webo
 
 ---
@@ -59,7 +59,7 @@ The web became **Live**. **Fun**. ***Interactive***.
 
 But beyond the flashy buttons, glowing elements and real-time interactions, something bigger was happening…
 
-Browsers weren’t just rendering cool effects; they were offloading serious computation from our servers to our users’ machines. Instead of relying on expensive, multi-core, memory-filled servers, we realised that every single user already had compute power at their fingertips.
+Browsers weren’t just rendering cool effects; they were offloading serious computation from our servers to our users’ machines. Instead of relying on expensive, multi-core, memory-filled servers, we realized that every single user already had compute power at their fingertips.
 
 We went from the browser rendering pages to the browser rendering entire **applications**. And not just lightweight UI components - **full-blown, desktop-grade software.** The browser became the new runtime; an OS inside an OS, shouldering the burden once meant for the backend.
 
@@ -73,7 +73,7 @@ Until it wasn’t.
 
 Turns out, search engines didn’t sign up for this full-stack revolution. Google could read JavaScript, sure. But understand it? Not so much. Beyond that, performance tanked. I’m sure you’re saying, *“But wait. No it didn’t!”*. It did, but you probably didn’t feel it because we were graciously met with so much more compute power, much more than we ever did before
 
-Developers were shipping megabytes of JavaScript just to render something as simple as a list. What once took a single HTML file now required hydration, client-side loops, and API calls.t suddenly took tons of JS to make anything functional. In turn, that created new problems. Latency suffered. We had to figure out how to pre-render out static pages (remember PhantomJS anybody?).
+Developers were shipping megabytes of JavaScript just to render something as simple as a list. What once took a single HTML file now required hydration, client-side loops, and API calls. It suddenly took tons of JS to make anything functional. In turn, that created new problems. Latency suffered. We had to figure out how to pre-render out static pages (remember PhantomJS anybody?).
 
 Then came React. Then came the first hydration issues. Then came Hydra. <s>Cut off one head, two shall take its place</s>… Sorry. Hydration Hell.
 
@@ -93,9 +93,7 @@ Oh dear God, no. Not even close.
 
 At least we got new buzzwords! *Blockchain. Crypto. Smart Contracts. Decentralization. Tokens. Mining. NFTs.* You get the idea. Web3 came in hot, promising to fix the internet by removing central control and letting users own their data. And in many ways, it delivered - for finance, supply chains, trustless transactions and so much more.
 
-But that didn’t actually fix any of our Web2.0 architectural problems, no sir. In fact, people started slapping blockchain on everything. Suddenly, blogs needed tokens, APIs required smart contracts, even basic web apps were being rebuilt with decentralized infrastructure.
-
-Web3 promised decentralization and data ownership but it didn’t solve the underlying architectural mess Web2.0 along the way, it just added more to account for.
+But that didn’t actually fix any of our Web2.0 architectural problems, no sir. In fact, people started slapping blockchain on everything. Suddenly, blogs needed tokens, APIs required smart contracts, even basic web apps were being rebuilt with decentralized infrastructure. So instead, it just added more to account for.
 
 At this point, we had truly outdone ourselves. In pushing the boundaries of technology, we didn’t just innovate -*we over-engineered everything.* And in the process, we gave an old word a brand-new meaning:
 
@@ -127,41 +125,43 @@ WebO+ isn’t about going backwards - it’s about correcting 25 years of misdir
 
 *Now this is assuming you still need a server to make API calls and you’re not generating static pages and serving them out of CDN.*
 
-For starters, we’re back to the early 2000s—where server-rendered, SEO-friendly pagination still matters, even though client-side tricks like pull-to-refresh make browsing smoother.
+For starters, we’re back to the early 2000s where server-rendered, SEO-friendly pagination still matters, even though client-side tricks like pull-to-refresh make browsing smoother.
 
-But now, servers are more powerful, and compression is faster than ever. Instead of juggling JSON responses and complex client-side loops, the server just sends fully rendered HTML, and the browser drops it straight into the DOM. No extra processing, no unnecessary hydration—just fast, direct rendering.
+But now, servers are more powerful, and compression is faster than ever. Instead of juggling JSON responses and complex client-side loops, the server just sends fully rendered HTML, and the browser drops it straight into the DOM. No extra processing, no unnecessary hydration, just fast, direct rendering.
 
-Yes, you can still use JS/TS on the backend, and reuse the same logic for both server-side and client-side rendering. But some tasks must stay client-side—like click handlers and state changes.
+Yes, you can still use JS/TS on the backend, and yes, you can still reuse the same logic for both server-side and client-side rendering. But some tasks like click handlers and state changes must stay client-side.
 
-The good news? You don’t need separate component types—just client-side functionality where necessary.
+The difference? You don’t need to structure two separate component types anymore. Just sprinkle in client-side functionality where needed.
 
 Some frameworks, like Svelte, go further by allowing client-side logic within the same file, making the distinction seamless.
 
-And it’s not just Svelte—SSR is back across the board. Frameworks like Laravel, Next.js, Nuxt, and SvelteKit make server rendering practical again, keeping servers lean while delivering instant, fully rendered pages.
+And it’s not just Svelte. SSR is back across the board. Frameworks like Laravel, Next, Nuxt and SvelteKit have brought server rendering back into the mainstream, making it practical again: lean servers, fully rendered pages, instant loads.
 
-Even React now embraces SSR with Next.js and React Server Components (RSC), though hydration issues still make it more complex than traditional SSR.
+React now embraces SSR with Next.js and React Server Components (RSC), though hydration issues still make it more complex than traditional SSR.
 
 ### A Small Aside, What Inspired this Article?
 
-You see, I saw a video called *“Best Practices for Next.js Apps”* and the first thing the guy said was, “Dude, are you using Page Router? Stop. Use App Router.” I asked ChatGPT, and you know what it basically? *“Oh, App Router is like how we built websites in the late 90s and early 2000s.”*
+You see, I saw a video called *“Next.js Best Practices You can’t ignore”* and the first thing the author said was something along the lines of “Dude, are you using Page Router? Stop. Use App Router.” but he didn’t do much of a job elaborating. So curiously, I asked ChatGPT about it and this is the gist of what I got back:  
+  
+*“Oh, App Router is like how we built websites in the late 90s and early 2000s.”*
 
-At that moment, something inside me broke.
+And then. Something inside me broke.
 
-At that point, I forced my partner to sit down and listen to me rant. I went on and on and finally ended with telling her what I would say to FrontEnd Devs at the time:
+So I forced my partner to sit down and listen to me rant. I went on and on and finally ended with telling her what I would say to FrontEnd Devs at the time:
 
-> *It doesn’t matter if server-side is gold if your client-side code looks like Medusa just woke up from a freaking hangover.*
+> *It wouldn’t matter if the server-side is pristine gold if your client-side code looks like Medusa just woke up from a freggin’ hangover.*
 
-Finally got her to laugh at something, so I guess that is a win. And the ranting made me feel better but before I go, there's some things that need to be said.
+She laughs. That’s something I guess. And the ranting made me feel better so before I go, there are some more things that need to be said.
 
 Frontend Development pushed browsers so damn far that they became full-fledged operating systems. \_Chromebook anyone?\_
 
-It pushed GPUs to their limits. It pushed JS engines to the point where V8 became so powerful that it didn’t just optimise web performance - it gave birth to entire server-side ecosystems like Node.js & Deno
+It pushed GPUs to their limits. It pushed JS engines to the point where V8 became so powerful that it didn’t just optimize web performance - it gave birth to entire server-side ecosystems like Node.js & Deno. (Yep. The same dude started both)
 
-Meanwhile, server-side computing kept getting stronger. But most of those BFFs? Just sitting there, idling. So the push came from the frontend: “Wake up, server. We need you to do more.”
+Meanwhile, server-side computing kept getting stronger. But most of these BFFs were just sitting there, idling. So the push came from the frontend: “Wake up, server. We need you to do more.”
 
-And now? We’re finally waking up to the fact that frontend wasn’t supposed to be doing all the heavy lifting.
+We’re finally waking up to the fact that frontend wasn’t supposed to be doing all the heavy lifting.
 
-And finally, we are shifting back, so I’d say…
+Finally. We are shifting back…, so I’d say…
 
 * Goodbye hydration hell.
     
@@ -170,7 +170,7 @@ And finally, we are shifting back, so I’d say…
 * Goodbye shipping 5MB of JavaScript just to render a list.
     
 
-And then I’'ll say…
+And then I'll say…
 
 * Welcome back, server-rendered HTML.
     
