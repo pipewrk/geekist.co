@@ -61,7 +61,7 @@ But beyond the flashy buttons, glowing elements and real-time interactions, some
 
 Browsers weren’t just rendering cool effects; they were offloading serious computation from our servers to our users’ machines. Instead of relying on expensive, multi-core, memory-filled servers, we realized that every single user already had compute power at their fingertips.
 
-We went from the browser rendering pages to the browser rendering entire **applications**. And not just lightweight UI components - **full-blown, desktop-grade software.** The browser became the new runtime; an OS inside an OS, shouldering the burden once meant for the backend.
+We went from the browser rendering pages to the browser rendering entire applications, **full-blown, desktop-grade software.** The browser became the new runtime; an OS inside an OS, shouldering the burden once meant for the backend.
 
 *At this point, people were finally calling us Engineers. Well… no. We were calling ourselves Engineers. And loudly. And no one was arguing with us.*
 
@@ -75,7 +75,11 @@ Turns out, search engines didn’t sign up for this full-stack revolution. Googl
 
 Developers were shipping megabytes of JavaScript just to render something as simple as a list. What once took a single HTML file now required hydration, client-side loops, and API calls. It suddenly took tons of JS to make anything functional. In turn, that created new problems. Latency suffered. We had to figure out how to pre-render out static pages (remember PhantomJS anybody?).
 
-Then came React. Then came the first hydration issues. Then came Hydra. <s>Cut off one head, two shall take its place</s>… Sorry. Hydration Hell.
+Then came React.
+
+Then came the first hydration issues.
+
+Then came Hydra. <s>Cut off one head, two shall take its place</s>… Sorry. Hydration Hell.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742208608844/985b08dc-2272-4e00-8ceb-38898e1d4931.gif align="center")
 
@@ -93,9 +97,9 @@ Oh dear God, no. Not even close.
 
 At least we got new buzzwords! *Blockchain. Crypto. Smart Contracts. Decentralization. Tokens. Mining. NFTs.* You get the idea. Web3 came in hot, promising to fix the internet by removing central control and letting users own their data. And in many ways, it delivered - for finance, supply chains, trustless transactions and so much more.
 
-But that didn’t actually fix any of our Web2.0 architectural problems, no sir. In fact, people started slapping blockchain on everything. Suddenly, blogs needed tokens, APIs required smart contracts, even basic web apps were being rebuilt with decentralized infrastructure. So instead, it just added more to account for.
+But that didn’t actually fix any of our Web2.0 architectural problems, no sir. In fact, people started slapping blockchain on everything. Suddenly, blogs needed tokens, APIs required smart contracts and even basic web apps were being rebuilt with decentralized infrastructure. So instead, it just added more to account for.
 
-At this point, we had truly outdone ourselves. In pushing the boundaries of technology, we didn’t just innovate -*we over-engineered everything.* And in the process, we gave an old word a brand-new meaning:
+At this point, we had truly outdone ourselves. In pushing the boundaries of technology, we didn’t just innovate,*we over-engineered everything.* And in the process, we gave an old word a brand-new meaning:
 
 *Overkill.*
 
@@ -147,9 +151,9 @@ You see, I saw a video called *“Next.js Best Practices You can’t ignore”* 
 
 And then. Something inside me broke.
 
-So I forced my partner to sit down and listen to me rant. I went on and on and finally ended with telling her what I would say to FrontEnd Devs at the time:
+So I forced my partner to sit down and listen to me rant. I went on and on and finally ended with telling her what I would say to Devs at the time:
 
-> *It wouldn’t matter if the server-side is pristine gold if your client-side code looks like Medusa just woke up from a freggin’ hangover.*
+> *It doesn’t matter if the server-side code is pristine gold if your client-side code looks like Medusa just woke up from a freggin’ hangover.*
 
 She laughs. That’s something I guess. And the ranting made me feel better so before I go, there are some more things that need to be said.
 
@@ -161,7 +165,7 @@ Meanwhile, server-side computing kept getting stronger. But most of these BFFs w
 
 We’re finally waking up to the fact that frontend wasn’t supposed to be doing all the heavy lifting.
 
-Finally. We are shifting back…, so I’d say…
+Finally. We are shifting back. So I’d say…
 
 * Goodbye hydration hell.
     
