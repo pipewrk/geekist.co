@@ -4,7 +4,7 @@ seoDescription: "The web has come full circle. After 25 years of over-engineerin
 datePublished: Mon Mar 17 2025 12:25:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm8d1fb2u000409jx1g2mcyvf
 slug: we-broke-the-web-can-webo-fix-it
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742260959139/27218680-172a-4f0e-a787-ea1ef3c419f7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742261470579/72ba3739-cecf-4fe6-8c7e-3490420b3885.png
 tags: laravel, javascript, performance, web-development, nodejs, backend, seo, frontend-development, ssr, web3, deno, decentralization, web-20, web-history, webo
 
 ---
