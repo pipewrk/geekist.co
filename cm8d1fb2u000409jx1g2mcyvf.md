@@ -5,6 +5,7 @@ datePublished: Mon Mar 17 2025 12:25:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm8d1fb2u000409jx1g2mcyvf
 slug: we-broke-the-web-can-webo-fix-it
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742261470579/72ba3739-cecf-4fe6-8c7e-3490420b3885.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1742266061564/c2470172-59b3-44c8-9bd8-ddcbdbfcc89b.png
 tags: laravel, javascript, performance, web-development, nodejs, backend, seo, frontend-development, ssr, web3, deno, decentralization, web-20, web-history, webo
 
 ---
