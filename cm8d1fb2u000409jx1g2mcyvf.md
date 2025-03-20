@@ -1,5 +1,5 @@
 ---
-title: "We Broke the Web. Can WebO+ Fix It?"
+title: "We Broke the Web. Now Comes the Rollback-olution™"
 seoDescription: "The web has come full circle. After 25 years of over-engineering, WebO+ revives the best of Web1, Web2, and Web3 - minus the complexity."
 datePublished: Mon Mar 17 2025 12:25:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm8d1fb2u000409jx1g2mcyvf
