@@ -21,7 +21,7 @@ So, like any normal person who woke up and decided to go keto for life, I asked 
 
 Good Lord, the rattling begins, not to mention the incessant need to bold every 3rd phrase of words it can.
 
-*How I wish there were a switch that said 'Short and Sharp Mode' in ChatGPT.*
+*How I wish there were a switch that said 'Short & Sharp' in ChatGPT.*
 
 But I digress. Almond milk. so we check the stores, and gosh, the cartons were so **damn expensive!?**
 
