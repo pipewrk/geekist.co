@@ -13,7 +13,7 @@ tags: keto, keto-diet, keto-coffee, croffee, keto-creamer, heavy-cream-coffee, a
 >   
 > Thus sayeth the UnHoly Grospel of Croffee.
 
-I think it’s becoming… No. Actually… It *has become* a standard now to ask ChatGPT or Gemini for answers. Simply because you get the fastest and yet probably the most relevant answers shorter than if you were to google it instead.
+I think it’s becoming… No. Actually… it *has become* a standard now to ask ChatGPT or Gemini for answers. Simply because you get the fastest and yet probably the most relevant answers, shorter than if you were to Google it instead.
 
 So, like any normal person who woke up and decided to go keto for life, I asked ChatGPT if I could use milk in my coffee.
 
@@ -21,9 +21,9 @@ So, like any normal person who woke up and decided to go keto for life, I asked 
 
 Good Lord, the rattling begins, not to mention the incessant need to bold every 3rd phrase of words it can.
 
-*How I wish there was a switch that said “Short and Sharp Mode” in ChatGPT.*
+*How I wish there were a switch that said 'Short and Sharp Mode' in ChatGPT.*
 
-But I digress. Almond milk. So we check the stores and gosh, the cartons were **so damn expensive**!?
+But I digress. Almond milk. so we check the stores, and gosh, the cartons were so **damn expensive!?**
 
 Whatever. Almond milk it is then. If that’s what it took for keto.
 
@@ -33,14 +33,14 @@ What!?
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><em>For the record, I’m totally okay to have coffee without creamer, but tell my partner that and she might get racist. Better not to risk it - for peace and prosperity’s sake.</em></div>
+<div data-node-type="callout-text"><em>For the record, I’m totally okay to have coffee without creamer, but tell my partner that and she might get all racist. Better not to risk it, for peace and prosperity’s sake. </em>🤪</div>
 </div>
 
-“Coconut Milk!” says trusty ol’ ChatGPT this time (I’ll spare you the monologue).
+“Coconut milk!” says trusty ol’ ChatGPT this time (I’ll spare you the monologue).
 
 But coconut milk in coffee??
 
-If you grew up in Southeast Asia, or specifically even in Singapore in the 80s and 90s, you’d have a distinct memory about coconut milk. Especially if you would have had to go down to the store to buy it. They didn’t sell coconut milk then. They sold desiccated coconut!
+If you grew up in Southeast Asia, or specifically in Singapore in the 80s and 90s, you’d have a distinct memory about coconut milk. Especially if you would had to go down to the store to buy it. They didn’t sell coconut milk then. They sold desiccated coconut!
 
 Complete with a loud noisy machine out back and a bunch of coconut husks lying around where the friendly store owner sits on a stool and masterfully takes a crack at a coconut, feeds half onto the machine and out comes your pure white fluff, sealed in a bag en-route to Mom central, where the transformation begins.
 
@@ -48,38 +48,38 @@ Complete with a loud noisy machine out back and a bunch of coconut husks lying a
 
 I loved it.
 
-From grated coconut to soaking in water, to that final squeeze yielding a pure white liquid, ready to cook with.
+From grated coconut, to soaking it in water, to that final squeeze yielding a pure white liquid, ready to cook with.
 
 Now that you’ve got that picture in your head, try another one:
 
-*Put that in your coffee!*
+*Put that in your coffee?!*
 
-(If you cringed a little, we’re on the same page, otherwise, you should stop reading now, close this tab and never come back!)
+(If you cringed a little, we’re on the same page. Otherwise, you should stop reading now, close this tab and never come back!)
 
 Still here? Good.
 
 Okay, it doesn’t work that way anymore. The fluff is gone (except if you count the fancy marketing fluff on the cartons), it’s now just coconut milk, unsweetened, low in carbs, perfectly drinkable. On that note, I have not seen a single picture of a coconut on the milk cartons like ever! They’re all over the coconut water cartons but never on the milk cartons.
 
-That’s something to think about huh?
+That’s something to think about, huh?
 
-But here’s the thing. Why does every keto coffee articles push almond milk first? If you dig a little, you’ll see that most keto creamer alternatives come straight from the plant-based movement, rather than from what actually makes sense for keto.
+But here’s the thing: Why does every keto coffee article push almond milk first? If you dig a little, you’ll see that most keto creamer alternatives come straight from the plant-based movement, rather than from what actually makes sense for keto.
 
-It’s not that almond milk is the best alternative, it’s just what vegans and plant-based folks have been using for years. Keto piggybacked on that. But keto isn’t vegan. It’s fat-first. And last I checked, almonds don’t exactly scream "fat bomb."
+It’s not that almond milk is the best alternative; it’s just what vegans and plant-based folks have been using for years. Keto piggybacked on that. But keto isn’t vegan. It’s fat-first. And last I checked, almonds don’t exactly scream "fat bomb."
 
 Ever tried eating a bowl of almonds? Your jaw’ll get a workout.
 
-Anyway, I gave up on the milk section altogether and went on the get some cheese. And then I stumbled on heavy cream. Wait. Why the hell not? So why not just use fat directly?
+Anyway, I gave up on the milk section altogether and went to get some cheese. And then I stumbled on heavy cream. Wait, why the hell not? So why not just use fat directly?
 
-And why not indeed. As it turns out, heavy cream is definitely usable, it tastes awesome and you don’t have to use much at all.
+And why not indeed. As it turns out, heavy cream is definitely usable. It tastes awesome and you don’t have to use much at all.
 
-I’ve used 15ml (1 tbsp) of heavy cream (30-35%+ fat) and it was magical. And if you have a large mug to fill, you can add a further 30ml (2 tbsps) of almond milk to it.
+I’ve used 15ml (1 tbsp) of heavy cream (30-35%+ fat), and it was magical. And if you have a large mug to fill, you can add another 30ml (2 tbsps) of almond milk to it.
 
-Close your eyes, pretend really hard, and - if you’re lucky - *it'll taste like oat milk*.
+Close your eyes, pretend really hard, and if you’re lucky, *it'll taste like oat milk*.
 
-*I wish*
+I wish
 
-I do that every morning now. It is the cheapest keto friendly latte you can get.
+I do that every morning now. It is the cheapest keto-friendly latte you can get.
 
 If we have Zoodles, why the hell can't we have **Croffee**?
 
-Go forth my fellow Geeks, spread the good Croffee word, have some while you’re at it and come right back here and share what it was like.
+Go forth, my fellow Geeks, spread the good Croffee word, have some while you’re at it, and come right back here and share what it was like.
