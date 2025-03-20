@@ -66,7 +66,7 @@ It’s not that almond milk is the best alternative; it’s just what vegans and
 
 Ever tried eating a bowl of almonds? Your jaw’ll get a workout.
 
-Anyway, I gave up on the milk section altogether and went to get some cheese. And then I stumbled on heavy cream. Wait, why the hell not? So why not just use fat directly?
+Anyway, I gave up on the milk section altogether and went to get some cheese. And then I stumbled on heavy cream. Wait, why the hell not? Why not just use fat directly?
 
 And why not indeed. As it turns out, heavy cream is definitely usable. It tastes awesome and you don’t have to use much at all.
 
