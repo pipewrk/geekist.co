@@ -11,6 +11,17 @@ tags: docker, nginx, nodejs, vps, best-practices, rust, github-actions-1
 
 In the previous [article](https://geekist.co/smarter-defaults-for-subdomains-and-ssl), I talked about how to manage your sub-domain setup with Nginx in a streamlined way. In this one, we'll dive into common approaches to structuring folders on your server and share the system I’ve settled on.
 
+🔹 You're reading the second article in the [Taming Nginx](https://geekist.co/series/taming-nginx) series, where we refine conventions and make managing Nginx a seamless experience.
+
+This time, we’ll dive into common approaches to structuring folders on your server and share the system I’ve settled on.
+
+Other Articles in This Series:
+
+* [Smarter Defaults for Subdomains and SSL](https://geekist.co/smarter-defaults-for-subdomains-and-ssl) – where I talk about how you can organise your subdomain configuration in Nginx.
+    
+* [Wildcard SSL and Beyond](https://geekist.co/wildcard-ssl-and-beyond) – where we explore how to secure your web server with SSL, wildcard certificates, and mutual SSL.
+    
+
 Traditionally, most web roots are located within `/var/www/html`, a specific folder designated to house all files related to your web app. This directory is owned by `root:root`, requiring `sudo` privileges to make changes.
 
 This design choice seems intentional. By requiring `sudo` for every modification, you’re compelled to pause and think carefully about changes to this critical directory.
