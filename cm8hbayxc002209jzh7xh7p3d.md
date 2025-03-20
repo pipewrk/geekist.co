@@ -56,7 +56,7 @@ Now that you’ve got that picture in your head, try another one:
 
 Still here? Good.
 
-Okay, it doesn’t work that way anymore. The fluff is gone (except if you count the fancy marketing bit on the cartons), it’s now just coconut milk, unsweetened, low in carbs, perfectly drinkable. On that note, I have not seen a single picture of a coconut on the milk cartons like ever! They’re all over the coconut water cartons but never on the milk cartons.
+Okay, it doesn’t work that way anymore. The fluff is gone (except if you count the fancy marketing bits on the cartons), it’s now just coconut milk, unsweetened, low in carbs, perfectly drinkable. On that note, I have not seen a single picture of a coconut on the milk cartons like ever! They’re all over the coconut water cartons but never on the milk cartons.
 
 That’s something to think about, huh?
 
