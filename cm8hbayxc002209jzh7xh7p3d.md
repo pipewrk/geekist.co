@@ -1,6 +1,6 @@
 ---
 title: "Croffee anyone? Or Kroffee if you’re so inclined."
-seoDescription: "Ditch almond milk! Discover Croffee—heavy cream in coffee, the ultimate keto hack. A hilarious take on keto coffee alternatives & plant-based myths."
+seoDescription: "Ditch almond milk! Discover Croffee: Heavy cream in coffee, the ultimate keto hack. A hilarious take on keto coffee alternatives & plant-based myths."
 datePublished: Thu Mar 20 2025 12:13:01 GMT+0000 (Coordinated Universal Time)
 cuid: cm8hbayxc002209jzh7xh7p3d
 slug: croffee-anyone-or-kroffee-if-youre-so-inclined
