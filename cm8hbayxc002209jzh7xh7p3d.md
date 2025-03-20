@@ -9,8 +9,8 @@ tags: keto, keto-diet, keto-coffee, croffee, keto-creamer, heavy-cream-coffee, a
 
 ---
 
-> And lo, the keto faithful looked upon their overpriced almond milk and wept. But then, heavy cream was revealed unto them, and they knew it was good. And so Croffee was born, and the mornings were creamy and rich once more.  
->   
+> And lo, the keto-faithful looked upon their overpriced almond milk and wept. But then, heavy cream was revealed unto them, and they knew it was good. And so Croffee was born, and the mornings were creamy and rich once more.
+> 
 > Thus sayeth the UnHoly Grospel of Croffee.
 
 I think it’s becoming… No. Actually… it *has become* a standard now to ask ChatGPT or Gemini for answers. Simply because you get the fastest and yet probably the most relevant answers, shorter than if you were to Google it instead.
@@ -19,9 +19,7 @@ So, like any normal person who woke up and decided to go keto for life, I asked 
 
 "Nope," it replied. "But almond milk is a great keto altern—"
 
-Good Lord, the rattling begins, not to mention the incessant need to bold every 3rd phrase of words it can.
-
-*How I wish there were a switch that said 'Short & Sharp' in ChatGPT.*
+Good Lord, the rattling begins, not to mention the incessant need to bold every 3rd phrase of words it can. *I wish there were a switch that said 'Short & Sharp' in ChatGPT.*
 
 But I digress. Almond milk. so we check the stores, and gosh, the cartons were so **damn expensive!?**
 
@@ -40,7 +38,7 @@ What!?
 
 But coconut milk in coffee??
 
-If you grew up in Southeast Asia, or specifically in Singapore in the 80s and 90s, you’d have a distinct memory about coconut milk. Especially if you would had to go down to the store to buy it. They didn’t sell coconut milk then. They sold desiccated coconut!
+If you grew up in Southeast Asia, or specifically in Singapore in the 80s and 90s, you’d have a distinct memory about coconut milk. Especially if you had to go down to the store to buy it. They didn’t sell coconut milk then. They sold desiccated coconut!
 
 Complete with a loud noisy machine out back and a bunch of coconut husks lying around where the friendly store owner sits on a stool and masterfully takes a crack at a coconut, feeds half onto the machine and out comes your pure white fluff, sealed in a bag en-route to Mom central, where the transformation begins.
 
