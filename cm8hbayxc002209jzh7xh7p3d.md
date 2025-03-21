@@ -21,7 +21,7 @@ So, like any normal person who woke up and decided to go keto for life, I asked 
 
 Good Lord, the rattling begins, not to mention the incessant need to bold every 3rd phrase of words it can. *I wish there were a switch that said 'Short & Sharp' in ChatGPT.*
 
-But I digress. Almond milk. so we check the stores, and gosh, the cartons were so **damn expensive!?**
+But I digress. Almond milk. So we check the stores, and gosh, the cartons were so **damn expensive!?**
 
 Whatever. Almond milk it is then. If that’s what it took for keto.
 
@@ -31,7 +31,7 @@ What!?
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><em>For the record, I’m totally okay to have coffee without creamer, but tell my partner that and she might get all racist. Better not to risk it, for peace and prosperity’s sake. </em>🤪</div>
+<div data-node-type="callout-text"><em>For the record, I’m totally okay to have coffee without creamer. But my partner? She looks at a mug without creamer like it's a hate crime. Not risking that kind of domestic unrest before 9am.</em> 🤪</div>
 </div>
 
 “Coconut milk!” says trusty ol’ ChatGPT this time (I’ll spare you the monologue).
@@ -60,24 +60,26 @@ Okay, it doesn’t work that way anymore. The fluff is gone (except if you count
 
 That’s something to think about, huh?
 
-But here’s the thing: Why does every keto coffee article push almond milk first? If you dig a little, you’ll see that most keto creamer alternatives come straight from the plant-based movement, rather than from what actually makes sense for keto.
-
-It’s not that almond milk is the best alternative; it’s just what vegans and plant-based folks have been using for years. Keto piggybacked on that. But keto isn’t vegan. It’s fat-first. And last I checked, almonds don’t exactly scream "fat bomb."
-
-Ever tried eating a bowl of almonds? Your jaw’ll get a workout.
+Anyway, here’s the thing. Almond milk isn’t really Keto. It’s plant-based. That’s why it’s everywhere. Keto just borrowed it from the vegan tribe.  
+  
+But what keto is really about is fats, not so much where it’s sourced from. Almonds? That’s barely trying. Try chewing through a bowl of them and tell me that’s the fat bomb we’re all looking for.
 
 Anyway, I gave up on the milk section altogether and went to get some cheese. And then I stumbled on heavy cream. Wait, why the hell not? Why not just use fat directly?
 
 And why not indeed. As it turns out, heavy cream is definitely usable. It tastes awesome and you don’t have to use much at all.
 
-I’ve used 15ml (1 tbsp) of heavy cream (30-35%+ fat), and it was magical. And if you have a large mug to fill, you can add another 30ml (2 tbsps) of almond milk to it.
+I’ve used 15ml (1 tbsp) of heavy cream (30-35%+ fat), and it was magical! Velvety, smooth, just the right kind of *decadent* to make you forget you’re technically dieting.
 
-Close your eyes, pretend really hard, and if you’re lucky, *it'll taste like oat milk*.
+And if you have a large mug to fill - or you’re truly missing some nutty undertones - you can add another 30ml (2 tbsps) of almond milk to it. Trust me, you’ll never look at almond milk the same way again.
 
-I wish
+Close your eyes, pretend really hard, and if you’re lucky, it'll taste like oat milk.
 
-I do that every morning now. It is the cheapest keto-friendly latte you can get.
+### *I wish*
+
+ChatGPT finally got something right though. Heavy Cream wins! I do that every morning now. And it’s the cheapest keto-friendly latte you can get.
 
 If we have Zoodles, why the hell can't we have **Croffee**?
 
-Go forth, my fellow Geeks, spread the good Croffee word, have some while you’re at it, and come right back here and share what it was like.
+Go forth, my fellow Geeks; spread the good Croffee word. Have some while you’re at it, and come right back here and share what it was like.
+
+And if anyone tries to stop you, just whisper: *“It is written… in the Grospel.”*
