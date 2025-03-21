@@ -147,8 +147,8 @@ React now embraces SSR with Next.js and React Server Components (RSC), though hy
 
 ### A Small Aside, What Inspired this Article?
 
-You see, I saw a video called *“Next.js Best Practices You can’t ignore”* and the first thing the author said was something along the lines of “Dude, are you using Page Router? Stop. Use App Router.” but he didn’t do much of a job elaborating. So curiously, I asked ChatGPT about it and this is the gist of what I got back:  
-  
+You see, I saw a video called *“Next.js Best Practices You can’t ignore”* and the first thing the author said was something along the lines of “Dude, are you using Page Router? Stop. Use App Router.” but he didn’t do much of a job elaborating. So curiously, I asked ChatGPT about it and this is the gist of what I got back:
+
 *“Oh, App Router is like how we built websites in the late 90s and early 2000s.”*
 
 And then. Something inside me broke.
@@ -173,7 +173,7 @@ Finally. We are shifting back. So I’d say…
     
 * Goodbye unnecessary client-side API calls.
     
-* Goodbye shipping 5MB of JavaScript just to render a list.
+* Goodbye shipping 5MB of JavaScript just show a list of blog posts.
     
 
 And then I'll say…
@@ -186,3 +186,5 @@ And then I'll say…
     
 
 ### 🔥 Welcome to WebO+.
+
+*(And if you haven’t figured it out by now, that’s Web Original Plus™. Just another buzzword? Maybe. But this time, it actually means something.)*
