@@ -42,19 +42,23 @@ Modern threats, like AI-powered cyberattacks and vulnerabilities hidden deep in 
 
 ### AI in Coding went from Novelty to Necessity (Almost)
 
-[AWS Lambda](https://siliconangle.com/2017/08/15/a-cloud-guru-uses-lambda-and-api-gateway-to-build-serverless-company-awssummit/) and serverless computing? Pure Revolution. Today we have coding platforms that generate entire apps for you (It can, but the stuff it generates is quite rudimentary). I have never once thought (nor will I believe) that coding can be completely replaced by AI - yet!
+AWS Lambda and serverless computing were revolutionary. Now we’ve got platforms that promise to generate entire apps for you. Technically, they can. Realistically? What they produce is usually somewhere between “basic” and “well... that’s not how I’d have done it.”
 
-The reason I say this is because I have spent much more time debugging AI-generated code than I would my own. To start with, I wouldn’t have written many things the way it would, having learnt so much over the years, I structure things wildly different from the common scenarios that LLMs are trained with. But while AI-generated code still has a long way to go, its real value emerges elsewhere…
+I’ve never truly believed that AI will replace developers. At least, not yet. Mostly because I’ve spent more time fixing AI-generated code than I would have spent writing it myself. It doesn’t think like a developer. It thinks like someone who skimmed Stack Overflow for 20 minutes and decided to wing it.
+
+A lot of what it generates feels oddly generic. It follows patterns, sure, but not always ones that make sense in the real world. After writing software for years, you start making deliberate architectural decisions. Ones that just don’t show up in a model’s training data. That’s why the real value of AI in coding lies somewhere else entirely.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741407913059/f67a9ecd-8ff9-4fb7-8a7d-dfd7763f5aa5.png align="center")
 
-Today, we have low-code and no-code tools that can generate prototypes in hours instead of weeks. And it is things like this that make AI shine. The heavy lifting, the project starters, the strategic overview. After that it becomes a companion at best. This converts developers into strategic architects, crafting scalable systems rather than wrestling with mundane details. If anything, these tools elevated our roles by freeing us from the busy work.
+Where AI *does* shine is in speeding up the boring parts. Low-code and no-code tools now give you prototypes in hours instead of weeks. You get a decent starting point, something to iterate on, without burning time reinventing the same wheel for the fifth time this year.
 
-Personally, I prefer using AI to handle specific parts of the code where structure or organisation can be enhanced, rather than relying on it entirely
+From there, AI becomes more of a helpful co-pilot than a lead engineer. It handles grunt work. You get to focus on architecture, user experience, and solving actual problems. It hasn’t reduced our roles, it’s helped refine them. We’ve moved from line-by-line coders to strategic designers who just happen to type faster now.
 
-I’d say LLM generated code has a long way to go and even if it gets there, you’d still need humans in the mix - and by definition - these humans are likely coders themselves because who else is going to debug AI’s mistakes?
+Personally, I use AI to tidy things up, refactor messy sections, or even nudge me when I’m stuck. But I wouldn’t let it write something mission-critical. Not unless I want my future self yelling at my past self in Git blame.
 
-I am hopeful though, and I am really looking forward to it because that means I can focus on things that really matter and leave the grunt-work to something else.
+AI-generated code still needs human eyes. Someone has to spot the subtle bugs, the edge cases, the stuff that "probably works" until it really doesn't. And who better to do that than the people who already know where the skeletons usually hide?
+
+I’m genuinely excited about where it’s headed. Not because it will replace me, but because it might finally let me stop writing boilerplate for good. And honestly? That’s the dream.
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
