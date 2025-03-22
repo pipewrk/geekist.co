@@ -11,7 +11,7 @@ tags: laravel, javascript, performance, web-development, nodejs, backend, seo, f
 
 ---
 
-Let's be honest. The Web has gone through so many self-imposed revolutions, it looks a lot more like a badly managed startup. Pivoting. Perpetually. Forever rewriting its mission statement. But as a side-effect, it tends to generate buzzwords. A ton of them. So here's another one:
+The Web has gone through so many self-imposed revolutions, it looks a lot more like a badly managed startup. Pivoting perpetually. Forever rewriting its mission statement. But as a side-effect, it tends to generate buzzwords. A ton of them. So here's another one:
 
 ***WebO+***
 
