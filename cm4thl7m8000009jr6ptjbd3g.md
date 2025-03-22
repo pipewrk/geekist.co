@@ -29,7 +29,7 @@ This is where all the magic of nginx happens.
 
 The `http` block is where global defaults are declared. Things like compression and which Nginx modules to load are defined here. As you’ll see, this file can get very verbose, very quickly.
 
-Fortunately, Nginx includes an `include` directive, which allows you to modularise configurations by including other files or folders.
+Fortunately, Nginx includes an `include` directive, which allows you to modularize configurations by including other files or folders.
 
 In almost every default Nginx configuration, you’ll see something like this near the end of the `http` block:
 
@@ -54,7 +54,7 @@ Most tutorials gloss over this, but if you’re a discerning sort, you might not
 2. `include /etc/nginx/sites-enabled/*;`: Unlike `conf.d`, this one loads all files in `sites-enabled`, regardless of their extension.
     
 
-But why? And why in that order?
+**But why? And why in that order?**
 
 Besides offering obvious flexibility in naming your domains, subdomains, or other server blocks, this order ensures that files in `conf.d` are loaded **first**.
 
@@ -62,7 +62,7 @@ This is intentional, and it’s a good thing.
 
 Typically, `conf.d` is used to specify global or module-specific defaults, but it also opens up some creative possibilities - which I’ll illustrate below.
 
-The default HTTP config
+**The default HTTP config**
 
 Now that we understand how `conf.d` is loaded first, let’s explore how it ties in to the **default HTTP configuration**.
 
@@ -145,7 +145,7 @@ In that case, `default` is loaded **first** (alphabetically) and redirects all t
 
 This is why HTTP exceptions belong in the `conf.d` folder. By placing them here, they are loaded **before anything in** `sites-enabled`, ensuring they take precedence over the default HTTPS redirect.
 
-For clarity, you can organise exceptions into a sub-directory within `conf.d`, like `http_exceptions`, and name the file to match the subdomain:
+For clarity, you can organize exceptions into a sub-directory within `conf.d`, like `http_exceptions`, and name the file to match the subdomain:
 
 `/etc/nginx/conf.d/http_exceptions/`[`freebies.example.com`](http://freebies.example.com)`.conf`
 
@@ -255,7 +255,7 @@ And that’s it! With this setup, you now have a flexible, scalable Nginx config
 
 This is just the beginning of the [Taming Nginx](https://geekist.co/series/taming-nginx) series. In upcoming articles, I’ll dive deeper into:
 
-* [A simplified folder structure to use in your Linux machines](https://geekist.co/building-the-foundation)
+* [Why Your Web Server Structure is Holding You Back (And How to Fix It)](https://geekist.co/building-the-foundation)
     
 * [Wildcard Certificates, Certbot & Cloudflare and Mutual SSL with Nginx](https://geekist.co/wildcard-ssl-and-beyond).
     
