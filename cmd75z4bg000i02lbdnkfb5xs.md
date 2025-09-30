@@ -12,21 +12,21 @@ tags: productivity, python, terminal, opensource, automation, rust, developer-to
 
 Before YouTube, Spotify, and Netflix dominated the internet, the only way we could get our hands on videos and music was to download them. Also, internet speeds weren’t ever measured in **Mbps** or **Gbps**.
 
-We downloaded on ***Kbps***. Let that sink in for a moment.
+We downloaded on **_Kbps_**. Let that sink in for a moment.
 
-![A vintage Windows download dialog box showing a file with 0.49% completed and an estimated time left of 39 years.](https://cdn.hashnode.com/res/hashnode/image/upload/v1752742190790/db8c4865-b9c9-4f0f-894b-fe93ad0b1347.avif align="center")
+![A vintage Windows download dialog box showing a file with 0.49% completed and an estimated time left of 39 years.](https://geekist.co/wp-content/uploads/dialup-1-480x320.avif)
 
-That meant a movie would take an entire day if you were lucky. If not, you’d wait a couple of days at least (and pray the landline didn’t start ringing!).
+That meant a movie would take an entire day if you were lucky. If not, you'd wait a couple of days at least (and pray the landline didn't start ringing!).
 
 When I was a teen, you could grab a pirated copy of just about anything via torrents or apps like Kazaa, LimeWire, or Napster, but those weren’t ever meant to last anyway.
 
-In this article, we’ll explore new ways to download videos, images, and music with the resurgence of some clever CLI tools and a little tinkering.
+In this article, we'll explore new ways to download videos, images, and music with the resurgence of some clever CLI tools and a little tinkering.
 
-You might have heard about `youtube-dl`, once the undisputed YouTube downloader, only to be dethroned by a newer tool called `yt-dlp`. But there are options available now. Some don’t even need you to download anything and instead allow you to directly stream media onto your favorite media app.
+You might have heard about `youtube-dl`, once the undisputed YouTube downloader, only to be dethroned by a newer tool called `yt-dlp`. But there are options available now. Some don't even need you to download anything and instead allow you to directly stream media onto your favorite media app.
 
 Let’s take a look at five standout tools and the unique tricks each one brings to the table.
 
-## Download Everything With [`yt-dlp`](https://github.com/yt-dlp/yt-dlp)
+## Download Everything With [yt-dlp](https://geekist.co/github/yt-dlp-an-audio-video-downloader/)
 
 Let’s start with the tool that took the crown from `youtube-dl`.
 
@@ -66,11 +66,11 @@ You can also sort and filter download formats with fine-grained control. Want on
 yt-dlp -f "bv[ext=mp4][height<=1080]+ba[ext=m4a]" https://www.youtube.com/watch?v=xyz
 ```
 
-All that and we’re still only just scratching the surface. It can handle playlists, metadata, cookies, rate-limits, and even merge video and audio streams with FFmpeg under the hood.
+All that and we're still only just scratching the surface. It can handle playlists, metadata, cookies, rate-limits, and even merge video and audio streams with FFmpeg under the hood.
 
-That said, if you’re not into downloading anything and you just want to watch a video straight from the source, right inside your media player app, there’s a tool for that too!
+That said, if you're not into downloading anything and you just want to watch a video straight from the source, right inside your media player app, there's a tool for that too!
 
-## Stream It Like You Stole It With [`you-get`](https://github.com/soimort/you%E2%80%91get)
+## Stream It Like You Stole It With [you-get](https://geekist.co/github/you-get-dumb-downloader-that-scrapes-the-web/)
 
 That’s exactly what `you-get` does. It pulls media from sites like YouTube, Vimeo, Twitter, and others, and streams it directly into apps like `MPV` or `VLC` without leaving the terminal.
 
@@ -102,79 +102,116 @@ Or inspect the available formats before deciding:
 you-get -i https://vimeo.com/12345678
 ```
 
-If you like the simplicity of `you-get` but want something faster, with more control over formats and playlists, there’s a tool that fits that profile perfectly.
+We’ll also cover a music-first workflow that keeps your Spotify playlists mirrored on disk automatically.
 
-Let’s take a look at `annie`.
+Let’s take a look at `spotDL`.
 
-## Speed & Simplicity With [`annie`](https://github.com/qinwang/annie)
+## **Sync Your Music Library With** [spotDL](https://geekist.co/github/spotdl-download-spotify-playlists/)
 
-Built in Go and made for speed, `annie` is a no-nonsense media downloader that covers most of the popular platforms, just like the others. It doesn’t try to be fancy. It just works, and it’s fast!
+If you want a music-first workflow that stays in sync with your playlists, spotDL is the right tool. Point it at a Spotify playlist (yours or public), and it fetches matching audio from YouTube/YouTube Music, writes proper metadata/cover art, and - crucially - keeps things updated with an incremental sync file.
 
-To install:
-
-```bash
-brew install annie
-```
-
-The default usage is exactly what you’d expect:
+To install (pick one):
 
 ```bash
-annie https://youtu.be/dQw4w9WgXcQ
+# Recommended
+pipx install spotdl
+# or:
+pip install spotdl
 ```
 
-But `annie` really shines when you want to preview available formats before downloading:
+Unlike the other tools here, spotDL does more than grab a single file: it mirrors whole playlists and keeps them in sync. That means the first command looks a little busier, but it’s because you’re creating a sync file that defines the playlist on disk. After that, updates are as simple as re-running one command.
+
+Initialize a playlist sync (creates a .spotdl file) and download:
 
 ```bash
-annie -i https://youtu.be/dQw4w9WgXcQ
+# Create a real sync file + download into ./dubstep-favourites/
+spotdl sync "https://open.spotify.com/playlist/27uRJq4FVTL1zAZ8DdoZJr" \
+  --save-file dubstep-favourites.spotdl \
+  --output "dubstep-favourites/{artist} - {title}.{ext}" \
+  --m3u "dubstep-favourites.m3u8"
 ```
 
-This gives you a clean, numbered list of all available video and audio streams, including resolution and size. Once you pick the one you want, just specify it:
+• `--save-file` creates a .spotdl sync file (must end with .spotdl).  
+• `--output` controls how filenames are written (here: “Artist – Title”).  
+• `--m3u` auto-generates a playlist file for media players.
+
+Think of this like “snapshotting” your Spotify playlist into a folder. That's why you'd find the next command useful, it incrementally syncs this playlist to disk:
 
 ```bash
-annie -f 18 https://youtu.be/dQw4w9WgXcQ
+spotdl sync dubstep-favourites.spotdl \
+  --output "dubstep-favourites/{artist} - {title}.{ext}" \
+  --m3u "dubstep-favourites.m3u8"
 ```
 
-It also handles full playlists with a simple flag:
+Now it only pulls new/changed tracks. No need to re-enter the playlist URL.
+
+`SpotDL` takes care of your music collection and keeps it neat, but what if you’re after something more immediate - like catching a Twitch stream as it happens, or saving a broadcast while you watch?
+
+That’s where `streamlink` comes in.
+
+## Stream Live or Save It With [streamlink](https://geekist.co/github/streamlink-pipe-video-streams-to-your-player/)
+
+Not everything you want to grab comes as a neat file with a download link. A lot of media online today (especially live events) is served as HLS or DASH streams. That's where `streamlink` comes in.
+
+It supports a long list of services via maintained plugins (e.g. YouTube, Twitch, BBC iPlayer, Vimeo, TikTok). Use it when you’d rather play or capture the stream, rather than fully “download” via an extractor.
+
+You can install it with `pip` or `brew`:
 
 ```bash
-annie -p https://www.bilibili.com/bangumi/play/ep198061
+brew install streamlink
+# or:
+pipx install streamlink
 ```
 
-`annie` doesn’t panic when the Wi-Fi hiccups. It just picks up where it left off like nothing happened, and it splits files into chunks for faster downloading. It’s quick and gets the job done. If you want something faster than `you-get` but leaner than `yt-dlp`, `annie` strikes a solid balance.
-
-Now, if you’re curious about something newer, with clean subcommands and stream decryption built in, then it’s worth checking out `rustube-cli`.
-
-## Clean & Modern With [`rustube-cli`](https://github.com/DzenanJupic/rustube)
-
-If you’re the kind of person who appreciates tools that feel like they were built this decade (instead of something that still thinks Flash is relevant), `rustube-cli` might be right up your alley. Written in Rust and designed to be simple but robust, it gives you just the essentials: clean command structure and reliable stream decryption for YouTube.
-
-You can install it via Cargo:
+Play a stream instantly:
 
 ```bash
-cargo install rustube-cli
+streamlink "https://www.youtube.com/watch?v=jNQXAC9IVRw" best
 ```
 
-Once installed, downloading a video is as straightforward as with all the other tools:
+The `best` keyword automatically picks the highest quality available, though you can choose 720p, 480p, or even audio if you want to save bandwidth.
+
+But why stop there? Why not record it while watching? Remember those old cable boxes that came with a built-in Harddisk that recorded your favorite TV show so you can watch it a hundred times over later (and bore the life out of your cat)?
 
 ```bash
-rustube fetch https://www.youtube.com/watch?v=dQw4w9WgXcQ
+streamlink --record "~/Videos/{author}/{title}-{time:%Y%m%d%H%M%S}.ts" \
+  -p mpv "https://twitch.tv/day9tv" best
 ```
 
-Want to see what stream qualities are available before downloading anything? Use `check`:
-
-This will show you all available streams, including resolution and codec info, so you can make an informed choice without wasting time or bandwidth.
+Yes. Yes, of course. You don't need to _watch_ it to have a copy:
 
 ```bash
-rustube check https://www.youtube.com/watch?v=dQw4w9WgXcQ
+streamlink --output "~/Videos/{author}/{title}-{time:%Y%m%d%H%M%S}.ts" \
+  "https://twitch.tv/day9tv" best
 ```
 
-You don’t need to memorize obscure flags here. `rustube-cli` keeps things clean by using subcommands instead of arguments, which makes it much easier to read and reason about.
+But that would mean you might miss the stream going live at 11pm tonight, wouldn’t it? For that, there’s `at`:
 
-It’s a younger project, and still growing, but it’s fast and thoughtful. Even though it currently only supports YouTube, it doesn’t come with the overhead that bigger tools carry.
+```bash
+brew install at
+brew services start atd
+```
 
-But what if you’re after images instead? Twitter threads, art sites, galleries, basically stuff you can’t just “right-click and save”? There’s a tool for that too.
+👉 _macOS doesn’t ship with at/atd anymore; Apple moved to launchd. Homebrew’s `atd` gets you the classic one-shot scheduler back._
 
-## Download Images Like a Wizard With [`gallery-dl`](https://github.com/mikf/gallery-dl)
+And that means both you (and the cat) get your shut-eye at 11pm and still have a copy tucked away for later:
+
+```bash
+echo 'streamlink --record ~/Videos/{title}.ts https://twitch.tv/day9tv best' | at 23:00
+```
+
+> 💡 Want it to stop after 2 hours?
+
+```bash
+brew install coreutils   # provides `gtimeout` on macOS
+echo 'gtimeout 7200 streamlink --record ~/Videos/{title}.ts https://twitch.tv/day9tv best' | at 23:00
+```
+
+And yep, it works for `yt-dlp` jobs too. So we’ve covered media downloads (YouTube with `yt-dlp`, Spotify with `spotDL`) and now live streams on demand with streamlink.
+
+What about images? Enter `gallery-dl`.
+
+## Download Images Like a Wizard With [gallery](https://geekist.co/github/gallery-dl-download-image-galleries-collections/)[-dl](https://github.com/mikf/gallery-dl)
 
 If `yt-dlp` is the multitool for video, then `gallery-dl` is more like a precision instrument for images. It’s not just for generic image URLs either; it actually understands how full galleries work on sites like Twitter, Reddit, DeviantArt, Pixiv, Danbooru, and even Tumblr.
 
@@ -233,6 +270,6 @@ There was a kind of thrill to it, even though it was very likely the file turned
 
 These CLI tools might not have the glossy buttons or cartoonish logos, but for developers, tinkerers, and anyone who lives in the terminal, they’ve become indispensable. They’re faster and definitely more flexible.
 
-In many ways, they’re more reliable than anything we had back then.
+In many ways, they're more reliable than anything we had back then.
 
 Hopefully you found something new in this lineup that you didn’t know you needed. If this kind of nerdy deep dive is your thing, consider subscribing. There are more posts like this already in the pipeline.
